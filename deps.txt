@@ -1,0 +1,1085 @@
+C:\Users\Imam\Documents\project\!WEB3\Tempo\kairo node_modules
+[2m├──[0m @0no-co/graphql.web[2m@1.2.0[0m
+[2m├──[0m @0no-co/graphqlsp[2m@1.15.1[0m
+[2m├──[0m @adraffy/ens-normalize[2m@1.11.1[0m
+[2m├──[0m @alloc/quick-lru[2m@5.2.0[0m
+[2m├──[0m @babel/code-frame[2m@7.27.1[0m
+[2m├──[0m @babel/compat-data[2m@7.28.5[0m
+[2m├──[0m @babel/core[2m@7.28.5[0m
+[2m│[0m   [2m└──[0m json5[2m@2.2.3[0m
+[2m├──[0m @babel/generator[2m@7.28.5[0m
+[2m├──[0m @babel/helper-compilation-targets[2m@7.27.2[0m
+[2m│[0m   [2m└──[0m lru-cache[2m@5.1.1[0m
+[2m├──[0m @babel/helper-globals[2m@7.28.0[0m
+[2m├──[0m @babel/helper-module-imports[2m@7.27.1[0m
+[2m├──[0m @babel/helper-module-transforms[2m@7.28.3[0m
+[2m├──[0m @babel/helper-string-parser[2m@7.27.1[0m
+[2m├──[0m @babel/helper-validator-identifier[2m@7.28.5[0m
+[2m├──[0m @babel/helper-validator-option[2m@7.27.1[0m
+[2m├──[0m @babel/helpers[2m@7.28.4[0m
+[2m├──[0m @babel/parser[2m@7.28.5[0m
+[2m├──[0m @babel/runtime[2m@7.28.4[0m
+[2m├──[0m @babel/template[2m@7.27.2[0m
+[2m├──[0m @babel/traverse[2m@7.28.5[0m
+[2m├──[0m @babel/types[2m@7.28.5[0m
+[2m├──[0m @base-org/account[2m@1.1.1[0m
+[2m│[0m   [2m├──[0m @noble/hashes[2m@1.4.0[0m
+[2m│[0m   [2m├──[0m clsx[2m@1.2.1[0m
+[2m│[0m   [2m├──[0m idb-keyval[2m@6.2.1[0m
+[2m│[0m   [2m├──[0m ox[2m@0.6.9[0m
+[2m│[0m   [2m│[0m   [2m├──[0m @noble/curves[2m@1.9.7[0m
+[2m│[0m   [2m│[0m   [2m└──[0m @noble/hashes[2m@1.8.0[0m
+[2m│[0m   [2m├──[0m preact[2m@10.24.2[0m
+[2m│[0m   [2m└──[0m zustand[2m@5.0.3[0m
+[2m├──[0m @coinbase/wallet-sdk[2m@4.3.7[0m
+[2m│[0m   [2m└──[0m clsx[2m@1.2.1[0m
+[2m├──[0m @dynamic-labs-connectors/base-account-evm[2m@4.4.2[0m
+[2m├──[0m @dynamic-labs-sdk/assert-package-version[2m@0.1.0-alpha.33[0m
+[2m├──[0m @dynamic-labs-sdk/client[2m@0.1.0-alpha.33[0m
+[2m│[0m   [2m└──[0m zod[2m@4.0.5[0m
+[2m├──[0m @dynamic-labs-wallet/browser[2m@0.0.167[0m
+[2m│[0m   [2m├──[0m @dynamic-labs-wallet/core[2m@0.0.167[0m
+[2m│[0m   [2m├──[0m @dynamic-labs/sdk-api-core[2m@0.0.764[0m
+[2m│[0m   [2m├──[0m @noble/hashes[2m@1.7.1[0m
+[2m│[0m   [2m├──[0m axios[2m@1.9.0[0m
+[2m│[0m   [2m├──[0m semver[2m@7.7.3[0m
+[2m│[0m   [2m└──[0m uuid[2m@11.1.0[0m
+[2m├──[0m @dynamic-labs-wallet/browser-wallet-client[2m@0.0.211[0m
+[2m│[0m   [2m└──[0m uuid[2m@11.1.0[0m
+[2m├──[0m @dynamic-labs-wallet/core[2m@0.0.211[0m
+[2m│[0m   [2m├──[0m @dynamic-labs/sdk-api-core[2m@0.0.818[0m
+[2m│[0m   [2m└──[0m uuid[2m@11.1.0[0m
+[2m├──[0m @dynamic-labs-wallet/forward-mpc-client[2m@0.1.3[0m
+[2m│[0m   [2m├──[0m @dynamic-labs-wallet/core[2m@0.0.167[0m
+[2m│[0m   [2m│[0m   [2m├──[0m @dynamic-labs/sdk-api-core[2m@0.0.764[0m
+[2m│[0m   [2m│[0m   [2m├──[0m axios[2m@1.9.0[0m
+[2m│[0m   [2m│[0m   [2m└──[0m uuid[2m@11.1.0[0m
+[2m│[0m   [2m└──[0m @noble/hashes[2m@2.0.1[0m
+[2m├──[0m @dynamic-labs-wallet/forward-mpc-shared[2m@0.1.0[0m
+[2m│[0m   [2m├──[0m @dynamic-labs-wallet/core[2m@0.0.167[0m
+[2m│[0m   [2m│[0m   [2m├──[0m @dynamic-labs/sdk-api-core[2m@0.0.764[0m
+[2m│[0m   [2m│[0m   [2m├──[0m axios[2m@1.9.0[0m
+[2m│[0m   [2m│[0m   [2m└──[0m uuid[2m@11.1.0[0m
+[2m│[0m   [2m├──[0m @noble/ciphers[2m@0.4.1[0m
+[2m│[0m   [2m└──[0m @noble/hashes[2m@2.0.1[0m
+[2m├──[0m @dynamic-labs/assert-package-version[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/embedded-wallet[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/embedded-wallet-evm[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/ethereum[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/ethereum-core[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/iconic[2m@4.49.0[0m
+[2m│[0m   [2m└──[0m sharp[2m@0.33.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-darwin-arm64[2m@0.33.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-darwin-x64[2m@0.33.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-libvips-darwin-arm64[2m@1.0.4[0m
+[2m│[0m       [2m├──[0m @img/sharp-libvips-darwin-x64[2m@1.0.4[0m
+[2m│[0m       [2m├──[0m @img/sharp-libvips-linux-arm[2m@1.0.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-libvips-linux-arm64[2m@1.0.4[0m
+[2m│[0m       [2m├──[0m @img/sharp-libvips-linux-s390x[2m@1.0.4[0m
+[2m│[0m       [2m├──[0m @img/sharp-libvips-linux-x64[2m@1.0.4[0m
+[2m│[0m       [2m├──[0m @img/sharp-libvips-linuxmusl-arm64[2m@1.0.4[0m
+[2m│[0m       [2m├──[0m @img/sharp-libvips-linuxmusl-x64[2m@1.0.4[0m
+[2m│[0m       [2m├──[0m @img/sharp-linux-arm[2m@0.33.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-linux-arm64[2m@0.33.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-linux-s390x[2m@0.33.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-linux-x64[2m@0.33.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-linuxmusl-arm64[2m@0.33.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-linuxmusl-x64[2m@0.33.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-wasm32[2m@0.33.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-win32-ia32[2m@0.33.5[0m
+[2m│[0m       [2m├──[0m @img/sharp-win32-x64[2m@0.33.5[0m
+[2m│[0m       [2m└──[0m semver[2m@7.7.3[0m
+[2m├──[0m @dynamic-labs/locale[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/logger[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/message-transport[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/multi-wallet[2m@4.49.0[0m
+[2m│[0m   [2m└──[0m tslib[2m@2.4.1[0m
+[2m├──[0m @dynamic-labs/rpc-providers[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/sdk-api-core[2m@0.0.831[0m
+[2m├──[0m @dynamic-labs/sdk-react-core[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/solana-core[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/store[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/sui-core[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/types[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/utils[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/waas[2m@4.49.0[0m
+[2m│[0m   [2m└──[0m @dynamic-labs-wallet/browser-wallet-client[2m@0.0.217[0m
+[2m│[0m       [2m├──[0m @dynamic-labs-wallet/core[2m@0.0.217[0m
+[2m│[0m       [2m│[0m   [2m└──[0m @dynamic-labs/sdk-api-core[2m@0.0.818[0m
+[2m│[0m       [2m└──[0m uuid[2m@11.1.0[0m
+[2m├──[0m @dynamic-labs/waas-evm[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/wagmi-connector[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/wallet-book[2m@4.49.0[0m
+[2m│[0m   [2m└──[0m zod[2m@4.0.5[0m
+[2m├──[0m @dynamic-labs/wallet-connector-core[2m@4.49.0[0m
+[2m├──[0m @dynamic-labs/webauthn[2m@4.49.0[0m
+[2m├──[0m @ecies/ciphers[2m@0.2.5[0m
+[2m├──[0m @emnapi/core[2m@1.7.1[0m
+[2m├──[0m @emnapi/runtime[2m@1.7.1[0m
+[2m├──[0m @emnapi/wasi-threads[2m@1.1.0[0m
+[2m├──[0m @emotion/hash[2m@0.9.2[0m
+[2m├──[0m @eslint-community/eslint-utils[2m@4.9.0[0m
+[2m│[0m   [2m└──[0m eslint-visitor-keys[2m@3.4.3[0m
+[2m├──[0m @eslint-community/regexpp[2m@4.12.2[0m
+[2m├──[0m @eslint/config-array[2m@0.21.1[0m
+[2m├──[0m @eslint/config-helpers[2m@0.4.2[0m
+[2m├──[0m @eslint/core[2m@0.17.0[0m
+[2m├──[0m @eslint/eslintrc[2m@3.3.3[0m
+[2m│[0m   [2m└──[0m globals[2m@14.0.0[0m
+[2m├──[0m @eslint/js[2m@9.39.1[0m
+[2m├──[0m @eslint/object-schema[2m@2.1.7[0m
+[2m├──[0m @eslint/plugin-kit[2m@0.4.1[0m
+[2m├──[0m @ethereumjs/common[2m@3.2.0[0m
+[2m├──[0m @ethereumjs/rlp[2m@4.0.1[0m
+[2m├──[0m @ethereumjs/tx[2m@4.2.0[0m
+[2m├──[0m @ethereumjs/util[2m@8.1.0[0m
+[2m├──[0m @evervault/wasm-attestation-bindings[2m@0.3.1[0m
+[2m├──[0m @gql.tada/cli-utils[2m@1.7.2[0m
+[2m├──[0m @gql.tada/internal[2m@1.0.8[0m
+[2m├──[0m @graphql-typed-document-node/core[2m@3.2.0[0m
+[2m├──[0m @hcaptcha/react-hcaptcha[2m@1.4.4[0m
+[2m├──[0m @hpke/chacha20poly1305[2m@1.7.1[0m
+[2m├──[0m @hpke/common[2m@1.8.1[0m
+[2m├──[0m @hpke/core[2m@1.7.5[0m
+[2m├──[0m @hpke/dhkem-x25519[2m@1.6.4[0m
+[2m├──[0m @hpke/dhkem-x448[2m@1.6.4[0m
+[2m├──[0m @humanfs/core[2m@0.19.1[0m
+[2m├──[0m @humanfs/node[2m@0.16.7[0m
+[2m├──[0m @humanwhocodes/module-importer[2m@1.0.1[0m
+[2m├──[0m @humanwhocodes/retry[2m@0.4.3[0m
+[2m├──[0m @img/colour[2m@1.0.0[0m
+[2m├──[0m @img/sharp-darwin-arm64[2m@0.34.5[0m
+[2m├──[0m @img/sharp-darwin-x64[2m@0.34.5[0m
+[2m├──[0m @img/sharp-libvips-darwin-arm64[2m@1.2.4[0m
+[2m├──[0m @img/sharp-libvips-darwin-x64[2m@1.2.4[0m
+[2m├──[0m @img/sharp-libvips-linux-arm[2m@1.2.4[0m
+[2m├──[0m @img/sharp-libvips-linux-arm64[2m@1.2.4[0m
+[2m├──[0m @img/sharp-libvips-linux-ppc64[2m@1.2.4[0m
+[2m├──[0m @img/sharp-libvips-linux-riscv64[2m@1.2.4[0m
+[2m├──[0m @img/sharp-libvips-linux-s390x[2m@1.2.4[0m
+[2m├──[0m @img/sharp-libvips-linux-x64[2m@1.2.4[0m
+[2m├──[0m @img/sharp-libvips-linuxmusl-arm64[2m@1.2.4[0m
+[2m├──[0m @img/sharp-libvips-linuxmusl-x64[2m@1.2.4[0m
+[2m├──[0m @img/sharp-linux-arm[2m@0.34.5[0m
+[2m├──[0m @img/sharp-linux-arm64[2m@0.34.5[0m
+[2m├──[0m @img/sharp-linux-ppc64[2m@0.34.5[0m
+[2m├──[0m @img/sharp-linux-riscv64[2m@0.34.5[0m
+[2m├──[0m @img/sharp-linux-s390x[2m@0.34.5[0m
+[2m├──[0m @img/sharp-linux-x64[2m@0.34.5[0m
+[2m├──[0m @img/sharp-linuxmusl-arm64[2m@0.34.5[0m
+[2m├──[0m @img/sharp-linuxmusl-x64[2m@0.34.5[0m
+[2m├──[0m @img/sharp-wasm32[2m@0.34.5[0m
+[2m├──[0m @img/sharp-win32-arm64[2m@0.34.5[0m
+[2m├──[0m @img/sharp-win32-ia32[2m@0.34.5[0m
+[2m├──[0m @img/sharp-win32-x64[2m@0.34.5[0m
+[2m├──[0m @jridgewell/gen-mapping[2m@0.3.13[0m
+[2m├──[0m @jridgewell/remapping[2m@2.3.5[0m
+[2m├──[0m @jridgewell/resolve-uri[2m@3.1.2[0m
+[2m├──[0m @jridgewell/sourcemap-codec[2m@1.5.5[0m
+[2m├──[0m @jridgewell/trace-mapping[2m@0.3.31[0m
+[2m├──[0m @lit-labs/ssr-dom-shim[2m@1.4.0[0m
+[2m├──[0m @lit/reactive-element[2m@2.1.1[0m
+[2m├──[0m @metamask/json-rpc-engine[2m@8.0.2[0m
+[2m├──[0m @metamask/json-rpc-middleware-stream[2m@7.0.2[0m
+[2m├──[0m @metamask/object-multiplex[2m@2.1.0[0m
+[2m├──[0m @metamask/onboarding[2m@1.0.1[0m
+[2m├──[0m @metamask/providers[2m@16.1.0[0m
+[2m├──[0m @metamask/rpc-errors[2m@6.4.0[0m
+[2m│[0m   [2m└──[0m @metamask/utils[2m@9.3.0[0m
+[2m│[0m       [2m├──[0m semver[2m@7.7.3[0m
+[2m│[0m       [2m└──[0m uuid[2m@9.0.1[0m
+[2m├──[0m @metamask/safe-event-emitter[2m@3.1.2[0m
+[2m├──[0m @metamask/sdk[2m@0.33.0[0m
+[2m├──[0m @metamask/sdk-analytics[2m@0.0.5[0m
+[2m├──[0m @metamask/sdk-communication-layer[2m@0.33.0[0m
+[2m├──[0m @metamask/sdk-install-modal-web[2m@0.32.1[0m
+[2m├──[0m @metamask/superstruct[2m@3.2.1[0m
+[2m├──[0m @metamask/utils[2m@8.5.0[0m
+[2m│[0m   [2m├──[0m semver[2m@7.7.3[0m
+[2m│[0m   [2m└──[0m uuid[2m@9.0.1[0m
+[2m├──[0m @msgpack/msgpack[2m@3.1.2[0m
+[2m├──[0m @mysten/bcs[2m@1.5.0[0m
+[2m├──[0m @mysten/sui[2m@1.24.0[0m
+[2m│[0m   [2m└──[0m @noble/curves[2m@1.9.7[0m
+[2m├──[0m @mysten/wallet-standard[2m@0.13.29[0m
+[2m├──[0m @napi-rs/wasm-runtime[2m@0.2.12[0m
+[2m├──[0m @next/env[2m@16.0.8[0m
+[2m├──[0m @next/eslint-plugin-next[2m@16.0.8[0m
+[2m├──[0m @next/swc-darwin-arm64[2m@16.0.8[0m
+[2m├──[0m @next/swc-darwin-x64[2m@16.0.8[0m
+[2m├──[0m @next/swc-linux-arm64-gnu[2m@16.0.8[0m
+[2m├──[0m @next/swc-linux-arm64-musl[2m@16.0.8[0m
+[2m├──[0m @next/swc-linux-x64-gnu[2m@16.0.8[0m
+[2m├──[0m @next/swc-linux-x64-musl[2m@16.0.8[0m
+[2m├──[0m @next/swc-win32-arm64-msvc[2m@16.0.8[0m
+[2m├──[0m @next/swc-win32-x64-msvc[2m@16.0.8[0m
+[2m├──[0m @noble/ciphers[2m@1.3.0[0m
+[2m├──[0m @noble/curves[2m@1.9.1[0m
+[2m├──[0m @noble/hashes[2m@1.8.0[0m
+[2m├──[0m @noble/post-quantum[2m@0.5.2[0m
+[2m│[0m   [2m├──[0m @noble/curves[2m@2.0.1[0m
+[2m│[0m   [2m└──[0m @noble/hashes[2m@2.0.1[0m
+[2m├──[0m @nodelib/fs.scandir[2m@2.1.5[0m
+[2m├──[0m @nodelib/fs.stat[2m@2.0.5[0m
+[2m├──[0m @nodelib/fs.walk[2m@1.2.8[0m
+[2m├──[0m @nolyfill/is-core-module[2m@1.0.39[0m
+[2m├──[0m @openzeppelin/contracts[2m@4.9.6[0m
+[2m├──[0m @paulmillr/qr[2m@0.2.1[0m
+[2m├──[0m @rainbow-me/rainbowkit[2m@2.2.10[0m
+[2m├──[0m @remix-run/fetch-router[2m@0.12.0[0m
+[2m├──[0m @remix-run/headers[2m@0.17.2[0m
+[2m├──[0m @remix-run/route-pattern[2m@0.15.3[0m
+[2m├──[0m @remix-run/session[2m@0.4.1[0m
+[2m├──[0m @reown/appkit[2m@1.7.8[0m
+[2m│[0m   [2m├──[0m @walletconnect/types[2m@2.21.0[0m
+[2m│[0m   [2m├──[0m @walletconnect/universal-provider[2m@2.21.0[0m
+[2m│[0m   [2m│[0m   [2m├──[0m @walletconnect/sign-client[2m@2.21.0[0m
+[2m│[0m   [2m│[0m   [2m│[0m   [2m└──[0m @walletconnect/core[2m@2.21.0[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m└──[0m uint8arrays[2m@3.1.0[0m
+[2m│[0m   [2m│[0m   [2m├──[0m @walletconnect/utils[2m@2.21.0[0m
+[2m│[0m   [2m│[0m   [2m│[0m   [2m├──[0m @noble/ciphers[2m@1.2.1[0m
+[2m│[0m   [2m│[0m   [2m│[0m   [2m├──[0m @noble/curves[2m@1.8.1[0m
+[2m│[0m   [2m│[0m   [2m│[0m   [2m├──[0m @noble/hashes[2m@1.7.1[0m
+[2m│[0m   [2m│[0m   [2m│[0m   [2m├──[0m uint8arrays[2m@3.1.0[0m
+[2m│[0m   [2m│[0m   [2m│[0m   [2m└──[0m viem[2m@2.23.2[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m├──[0m @scure/bip32[2m@1.6.2[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m├──[0m @scure/bip39[2m@1.5.4[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m├──[0m abitype[2m@1.0.8[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m├──[0m isows[2m@1.0.6[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m├──[0m ox[2m@0.6.7[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m│[0m   [2m├──[0m @noble/curves[2m@1.9.7[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m│[0m   [2m├──[0m @noble/hashes[2m@1.8.0[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m│[0m   [2m├──[0m @scure/bip32[2m@1.7.0[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m│[0m   [2m│[0m   [2m└──[0m @noble/curves[2m@1.9.1[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m│[0m   [2m├──[0m @scure/bip39[2m@1.6.0[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m│[0m   [2m└──[0m abitype[2m@1.1.0[0m
+[2m│[0m   [2m│[0m   [2m│[0m       [2m└──[0m ws[2m@8.18.0[0m
+[2m│[0m   [2m│[0m   [2m└──[0m es-toolkit[2m@1.33.0[0m
+[2m│[0m   [2m└──[0m bs58[2m@6.0.0[0m
+[2m│[0m       [2m└──[0m base-x[2m@5.0.1[0m
+[2m├──[0m @reown/appkit-common[2m@1.7.8[0m
+[2m├──[0m @reown/appkit-controllers[2m@1.7.8[0m
+[2m│[0m   [2m└──[0m @walletconnect/universal-provider[2m@2.21.0[0m
+[2m│[0m       [2m├──[0m @walletconnect/sign-client[2m@2.21.0[0m
+[2m│[0m       [2m│[0m   [2m└──[0m @walletconnect/core[2m@2.21.0[0m
+[2m│[0m       [2m│[0m       [2m└──[0m uint8arrays[2m@3.1.0[0m
+[2m│[0m       [2m├──[0m @walletconnect/types[2m@2.21.0[0m
+[2m│[0m       [2m├──[0m @walletconnect/utils[2m@2.21.0[0m
+[2m│[0m       [2m│[0m   [2m├──[0m @noble/ciphers[2m@1.2.1[0m
+[2m│[0m       [2m│[0m   [2m├──[0m @noble/curves[2m@1.8.1[0m
+[2m│[0m       [2m│[0m   [2m├──[0m @noble/hashes[2m@1.7.1[0m
+[2m│[0m       [2m│[0m   [2m├──[0m bs58[2m@6.0.0[0m
+[2m│[0m       [2m│[0m   [2m│[0m   [2m└──[0m base-x[2m@5.0.1[0m
+[2m│[0m       [2m│[0m   [2m├──[0m uint8arrays[2m@3.1.0[0m
+[2m│[0m       [2m│[0m   [2m└──[0m viem[2m@2.23.2[0m
+[2m│[0m       [2m│[0m       [2m├──[0m @scure/bip32[2m@1.6.2[0m
+[2m│[0m       [2m│[0m       [2m├──[0m @scure/bip39[2m@1.5.4[0m
+[2m│[0m       [2m│[0m       [2m├──[0m abitype[2m@1.0.8[0m
+[2m│[0m       [2m│[0m       [2m├──[0m isows[2m@1.0.6[0m
+[2m│[0m       [2m│[0m       [2m├──[0m ox[2m@0.6.7[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m├──[0m @noble/curves[2m@1.9.7[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m├──[0m @noble/hashes[2m@1.8.0[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m├──[0m @scure/bip32[2m@1.7.0[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m│[0m   [2m└──[0m @noble/curves[2m@1.9.1[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m├──[0m @scure/bip39[2m@1.6.0[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m└──[0m abitype[2m@1.1.0[0m
+[2m│[0m       [2m│[0m       [2m└──[0m ws[2m@8.18.0[0m
+[2m│[0m       [2m└──[0m es-toolkit[2m@1.33.0[0m
+[2m├──[0m @reown/appkit-pay[2m@1.7.8[0m
+[2m├──[0m @reown/appkit-polyfills[2m@1.7.8[0m
+[2m├──[0m @reown/appkit-scaffold-ui[2m@1.7.8[0m
+[2m├──[0m @reown/appkit-ui[2m@1.7.8[0m
+[2m│[0m   [2m└──[0m qrcode[2m@1.5.3[0m
+[2m├──[0m @reown/appkit-utils[2m@1.7.8[0m
+[2m│[0m   [2m└──[0m @walletconnect/universal-provider[2m@2.21.0[0m
+[2m│[0m       [2m├──[0m @walletconnect/sign-client[2m@2.21.0[0m
+[2m│[0m       [2m│[0m   [2m└──[0m @walletconnect/core[2m@2.21.0[0m
+[2m│[0m       [2m│[0m       [2m└──[0m uint8arrays[2m@3.1.0[0m
+[2m│[0m       [2m├──[0m @walletconnect/types[2m@2.21.0[0m
+[2m│[0m       [2m├──[0m @walletconnect/utils[2m@2.21.0[0m
+[2m│[0m       [2m│[0m   [2m├──[0m @noble/ciphers[2m@1.2.1[0m
+[2m│[0m       [2m│[0m   [2m├──[0m @noble/curves[2m@1.8.1[0m
+[2m│[0m       [2m│[0m   [2m├──[0m @noble/hashes[2m@1.7.1[0m
+[2m│[0m       [2m│[0m   [2m├──[0m bs58[2m@6.0.0[0m
+[2m│[0m       [2m│[0m   [2m│[0m   [2m└──[0m base-x[2m@5.0.1[0m
+[2m│[0m       [2m│[0m   [2m├──[0m uint8arrays[2m@3.1.0[0m
+[2m│[0m       [2m│[0m   [2m└──[0m viem[2m@2.23.2[0m
+[2m│[0m       [2m│[0m       [2m├──[0m @scure/bip32[2m@1.6.2[0m
+[2m│[0m       [2m│[0m       [2m├──[0m @scure/bip39[2m@1.5.4[0m
+[2m│[0m       [2m│[0m       [2m├──[0m abitype[2m@1.0.8[0m
+[2m│[0m       [2m│[0m       [2m├──[0m isows[2m@1.0.6[0m
+[2m│[0m       [2m│[0m       [2m├──[0m ox[2m@0.6.7[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m├──[0m @noble/curves[2m@1.9.7[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m├──[0m @noble/hashes[2m@1.8.0[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m├──[0m @scure/bip32[2m@1.7.0[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m│[0m   [2m└──[0m @noble/curves[2m@1.9.1[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m├──[0m @scure/bip39[2m@1.6.0[0m
+[2m│[0m       [2m│[0m       [2m│[0m   [2m└──[0m abitype[2m@1.1.0[0m
+[2m│[0m       [2m│[0m       [2m└──[0m ws[2m@8.18.0[0m
+[2m│[0m       [2m└──[0m es-toolkit[2m@1.33.0[0m
+[2m├──[0m @reown/appkit-wallet[2m@1.7.8[0m
+[2m│[0m   [2m└──[0m zod[2m@3.22.4[0m
+[2m├──[0m @rtsao/scc[2m@1.1.0[0m
+[2m├──[0m @scure/base[2m@1.2.6[0m
+[2m├──[0m @scure/bip32[2m@1.7.0[0m
+[2m├──[0m @scure/bip39[2m@1.6.0[0m
+[2m├──[0m @simplewebauthn/browser[2m@13.1.0[0m
+[2m├──[0m @simplewebauthn/types[2m@12.0.0[0m
+[2m├──[0m @socket.io/component-emitter[2m@3.1.2[0m
+[2m├──[0m @solana/buffer-layout[2m@4.0.1[0m
+[2m├──[0m @solana/buffer-layout-utils[2m@0.2.0[0m
+[2m├──[0m @solana/codecs[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m├──[0m @solana/codecs-core[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m│[0m   [2m└──[0m @solana/errors[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m│[0m       [2m├──[0m chalk[2m@5.6.2[0m
+[2m│[0m   [2m│[0m       [2m└──[0m commander[2m@12.1.0[0m
+[2m│[0m   [2m└──[0m @solana/codecs-numbers[2m@2.0.0-rc.1[0m
+[2m│[0m       [2m└──[0m @solana/errors[2m@2.0.0-rc.1[0m
+[2m│[0m           [2m├──[0m chalk[2m@5.6.2[0m
+[2m│[0m           [2m└──[0m commander[2m@12.1.0[0m
+[2m├──[0m @solana/codecs-core[2m@2.3.0[0m
+[2m├──[0m @solana/codecs-data-structures[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m├──[0m @solana/codecs-core[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m├──[0m @solana/codecs-numbers[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m└──[0m @solana/errors[2m@2.0.0-rc.1[0m
+[2m│[0m       [2m├──[0m chalk[2m@5.6.2[0m
+[2m│[0m       [2m└──[0m commander[2m@12.1.0[0m
+[2m├──[0m @solana/codecs-numbers[2m@2.3.0[0m
+[2m├──[0m @solana/codecs-strings[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m├──[0m @solana/codecs-core[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m├──[0m @solana/codecs-numbers[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m└──[0m @solana/errors[2m@2.0.0-rc.1[0m
+[2m│[0m       [2m├──[0m chalk[2m@5.6.2[0m
+[2m│[0m       [2m└──[0m commander[2m@12.1.0[0m
+[2m├──[0m @solana/errors[2m@2.3.0[0m
+[2m│[0m   [2m├──[0m chalk[2m@5.6.2[0m
+[2m│[0m   [2m└──[0m commander[2m@14.0.2[0m
+[2m├──[0m @solana/options[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m├──[0m @solana/codecs-core[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m├──[0m @solana/codecs-numbers[2m@2.0.0-rc.1[0m
+[2m│[0m   [2m└──[0m @solana/errors[2m@2.0.0-rc.1[0m
+[2m│[0m       [2m├──[0m chalk[2m@5.6.2[0m
+[2m│[0m       [2m└──[0m commander[2m@12.1.0[0m
+[2m├──[0m @solana/spl-token[2m@0.4.12[0m
+[2m├──[0m @solana/spl-token-group[2m@0.0.7[0m
+[2m├──[0m @solana/spl-token-metadata[2m@0.1.6[0m
+[2m├──[0m @solana/web3.js[2m@1.98.1[0m
+[2m│[0m   [2m├──[0m @noble/curves[2m@1.9.7[0m
+[2m│[0m   [2m└──[0m bs58[2m@4.0.1[0m
+[2m│[0m       [2m└──[0m base-x[2m@3.0.11[0m
+[2m│[0m           [2m└──[0m safe-buffer[2m@5.2.1[0m
+[2m├──[0m @supabase/auth-js[2m@2.87.1[0m
+[2m├──[0m @supabase/functions-js[2m@2.87.1[0m
+[2m├──[0m @supabase/postgrest-js[2m@2.87.1[0m
+[2m├──[0m @supabase/realtime-js[2m@2.87.1[0m
+[2m├──[0m @supabase/storage-js[2m@2.87.1[0m
+[2m├──[0m @supabase/supabase-js[2m@2.87.1[0m
+[2m├──[0m @swc/helpers[2m@0.5.15[0m
+[2m├──[0m @tailwindcss/node[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide-android-arm64[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide-darwin-arm64[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide-darwin-x64[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide-freebsd-x64[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide-linux-arm-gnueabihf[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide-linux-arm64-gnu[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide-linux-arm64-musl[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide-linux-x64-gnu[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide-linux-x64-musl[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide-wasm32-wasi[2m@4.1.17[0m
+[2m│[0m   [2m├──[0m @emnapi/core[2m@1.7.1[0m
+[2m│[0m   [2m├──[0m @emnapi/runtime[2m@1.7.1[0m
+[2m│[0m   [2m├──[0m @emnapi/wasi-threads[2m@1.1.0[0m
+[2m│[0m   [2m├──[0m @napi-rs/wasm-runtime[2m@1.1.0[0m
+[2m│[0m   [2m├──[0m @tybys/wasm-util[2m@0.10.1[0m
+[2m│[0m   [2m└──[0m tslib[2m@2.8.1[0m
+[2m├──[0m @tailwindcss/oxide-win32-arm64-msvc[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/oxide-win32-x64-msvc[2m@4.1.17[0m
+[2m├──[0m @tailwindcss/postcss[2m@4.1.17[0m
+[2m├──[0m @tanstack/query-core[2m@5.90.12[0m
+[2m├──[0m @tanstack/react-query[2m@5.90.12[0m
+[2m├──[0m @thumbmarkjs/thumbmarkjs[2m@0.16.0[0m
+[2m├──[0m @turnkey/api-key-stamper[2m@0.4.7[0m
+[2m│[0m   [2m└──[0m @noble/curves[2m@1.9.7[0m
+[2m├──[0m @turnkey/crypto[2m@2.5.0[0m
+[2m│[0m   [2m├──[0m @noble/curves[2m@1.9.0[0m
+[2m│[0m   [2m└──[0m bs58[2m@6.0.0[0m
+[2m│[0m       [2m└──[0m base-x[2m@5.0.1[0m
+[2m├──[0m @turnkey/encoding[2m@0.5.0[0m
+[2m├──[0m @turnkey/http[2m@3.10.0[0m
+[2m│[0m   [2m└──[0m cross-fetch[2m@3.2.0[0m
+[2m├──[0m @turnkey/iframe-stamper[2m@2.5.0[0m
+[2m├──[0m @turnkey/indexed-db-stamper[2m@1.1.1[0m
+[2m├──[0m @turnkey/sdk-browser[2m@5.8.0[0m
+[2m│[0m   [2m└──[0m cross-fetch[2m@3.2.0[0m
+[2m├──[0m @turnkey/sdk-server[2m@4.7.0[0m
+[2m│[0m   [2m└──[0m cross-fetch[2m@3.2.0[0m
+[2m├──[0m @turnkey/sdk-types[2m@0.3.0[0m
+[2m├──[0m @turnkey/viem[2m@0.13.0[0m
+[2m│[0m   [2m└──[0m @noble/curves[2m@1.8.0[0m
+[2m│[0m       [2m└──[0m @noble/hashes[2m@1.7.0[0m
+[2m├──[0m @turnkey/wallet-stamper[2m@1.0.8[0m
+[2m├──[0m @turnkey/webauthn-stamper[2m@0.5.1[0m
+[2m├──[0m @tybys/wasm-util[2m@0.10.1[0m
+[2m├──[0m @types/connect[2m@3.4.38[0m
+[2m├──[0m @types/debug[2m@4.1.12[0m
+[2m├──[0m @types/estree[2m@1.0.8[0m
+[2m├──[0m @types/json-schema[2m@7.0.15[0m
+[2m├──[0m @types/json5[2m@0.0.29[0m
+[2m├──[0m @types/lodash[2m@4.17.21[0m
+[2m├──[0m @types/ms[2m@2.1.0[0m
+[2m├──[0m @types/node[2m@20.19.26[0m
+[2m├──[0m @types/phoenix[2m@1.6.7[0m
+[2m├──[0m @types/react[2m@19.2.7[0m
+[2m├──[0m @types/react-dom[2m@19.2.3[0m
+[2m├──[0m @types/trusted-types[2m@2.0.7[0m
+[2m├──[0m @types/uuid[2m@8.3.4[0m
+[2m├──[0m @types/ws[2m@8.18.1[0m
+[2m├──[0m @typescript-eslint/eslint-plugin[2m@8.49.0[0m
+[2m│[0m   [2m└──[0m ignore[2m@7.0.5[0m
+[2m├──[0m @typescript-eslint/parser[2m@8.49.0[0m
+[2m├──[0m @typescript-eslint/project-service[2m@8.49.0[0m
+[2m├──[0m @typescript-eslint/scope-manager[2m@8.49.0[0m
+[2m├──[0m @typescript-eslint/tsconfig-utils[2m@8.49.0[0m
+[2m├──[0m @typescript-eslint/type-utils[2m@8.49.0[0m
+[2m├──[0m @typescript-eslint/types[2m@8.49.0[0m
+[2m├──[0m @typescript-eslint/typescript-estree[2m@8.49.0[0m
+[2m│[0m   [2m├──[0m minimatch[2m@9.0.5[0m
+[2m│[0m   [2m│[0m   [2m└──[0m brace-expansion[2m@2.0.2[0m
+[2m│[0m   [2m└──[0m semver[2m@7.7.3[0m
+[2m├──[0m @typescript-eslint/utils[2m@8.49.0[0m
+[2m├──[0m @typescript-eslint/visitor-keys[2m@8.49.0[0m
+[2m├──[0m @unrs/resolver-binding-android-arm-eabi[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-android-arm64[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-darwin-arm64[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-darwin-x64[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-freebsd-x64[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-linux-arm-gnueabihf[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-linux-arm-musleabihf[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-linux-arm64-gnu[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-linux-arm64-musl[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-linux-ppc64-gnu[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-linux-riscv64-gnu[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-linux-riscv64-musl[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-linux-s390x-gnu[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-linux-x64-gnu[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-linux-x64-musl[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-wasm32-wasi[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-win32-arm64-msvc[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-win32-ia32-msvc[2m@1.11.1[0m
+[2m├──[0m @unrs/resolver-binding-win32-x64-msvc[2m@1.11.1[0m
+[2m├──[0m @vanilla-extract/css[2m@1.17.3[0m
+[2m│[0m   [2m└──[0m deepmerge[2m@4.3.1[0m
+[2m├──[0m @vanilla-extract/dynamic[2m@2.1.4[0m
+[2m├──[0m @vanilla-extract/private[2m@1.0.9[0m
+[2m├──[0m @vanilla-extract/sprinkles[2m@1.6.4[0m
+[2m├──[0m @vue/reactivity[2m@3.5.25[0m
+[2m├──[0m @vue/shared[2m@3.5.25[0m
+[2m├──[0m @wagmi/connectors[2m@7.0.2[0m
+[2m├──[0m @wagmi/core[2m@3.0.0[0m
+[2m├──[0m @wallet-standard/app[2m@1.1.0[0m
+[2m├──[0m @wallet-standard/base[2m@1.1.0[0m
+[2m├──[0m @wallet-standard/core[2m@1.1.0[0m
+[2m├──[0m @wallet-standard/errors[2m@0.1.1[0m
+[2m│[0m   [2m├──[0m chalk[2m@5.6.2[0m
+[2m│[0m   [2m└──[0m commander[2m@13.1.0[0m
+[2m├──[0m @wallet-standard/features[2m@1.1.0[0m
+[2m├──[0m @wallet-standard/wallet[2m@1.1.0[0m
+[2m├──[0m @walletconnect/core[2m@2.21.5[0m
+[2m├──[0m @walletconnect/environment[2m@1.0.1[0m
+[2m│[0m   [2m└──[0m tslib[2m@1.14.1[0m
+[2m├──[0m @walletconnect/ethereum-provider[2m@2.21.5[0m
+[2m├──[0m @walletconnect/events[2m@1.0.1[0m
+[2m│[0m   [2m└──[0m tslib[2m@1.14.1[0m
+[2m├──[0m @walletconnect/heartbeat[2m@1.2.2[0m
+[2m├──[0m @walletconnect/jsonrpc-http-connection[2m@1.0.8[0m
+[2m│[0m   [2m└──[0m cross-fetch[2m@3.2.0[0m
+[2m├──[0m @walletconnect/jsonrpc-provider[2m@1.0.14[0m
+[2m├──[0m @walletconnect/jsonrpc-types[2m@1.0.4[0m
+[2m├──[0m @walletconnect/jsonrpc-utils[2m@1.0.8[0m
+[2m│[0m   [2m└──[0m tslib[2m@1.14.1[0m
+[2m├──[0m @walletconnect/jsonrpc-ws-connection[2m@1.0.16[0m
+[2m│[0m   [2m└──[0m ws[2m@7.5.10[0m
+[2m├──[0m @walletconnect/keyvaluestorage[2m@1.1.1[0m
+[2m├──[0m @walletconnect/logger[2m@2.1.2[0m
+[2m├──[0m @walletconnect/relay-api[2m@1.0.11[0m
+[2m├──[0m @walletconnect/relay-auth[2m@1.1.0[0m
+[2m│[0m   [2m├──[0m @noble/curves[2m@1.8.0[0m
+[2m│[0m   [2m└──[0m @noble/hashes[2m@1.7.0[0m
+[2m├──[0m @walletconnect/safe-json[2m@1.0.2[0m
+[2m│[0m   [2m└──[0m tslib[2m@1.14.1[0m
+[2m├──[0m @walletconnect/sign-client[2m@2.21.5[0m
+[2m├──[0m @walletconnect/time[2m@1.0.2[0m
+[2m│[0m   [2m└──[0m tslib[2m@1.14.1[0m
+[2m├──[0m @walletconnect/types[2m@2.21.5[0m
+[2m├──[0m @walletconnect/universal-provider[2m@2.21.5[0m
+[2m├──[0m @walletconnect/utils[2m@2.21.5[0m
+[2m│[0m   [2m├──[0m @noble/curves[2m@1.9.2[0m
+[2m│[0m   [2m├──[0m bs58[2m@6.0.0[0m
+[2m│[0m   [2m│[0m   [2m└──[0m base-x[2m@5.0.1[0m
+[2m│[0m   [2m└──[0m viem[2m@2.31.0[0m
+[2m│[0m       [2m├──[0m @noble/curves[2m@1.9.1[0m
+[2m│[0m       [2m├──[0m abitype[2m@1.0.8[0m
+[2m│[0m       [2m├──[0m ox[2m@0.7.1[0m
+[2m│[0m       [2m│[0m   [2m├──[0m @noble/curves[2m@1.9.7[0m
+[2m│[0m       [2m│[0m   [2m└──[0m abitype[2m@1.1.0[0m
+[2m│[0m       [2m└──[0m ws[2m@8.18.2[0m
+[2m├──[0m @walletconnect/window-getters[2m@1.0.1[0m
+[2m│[0m   [2m└──[0m tslib[2m@1.14.1[0m
+[2m├──[0m @walletconnect/window-metadata[2m@1.0.1[0m
+[2m│[0m   [2m└──[0m tslib[2m@1.14.1[0m
+[2m├──[0m abitype[2m@1.1.0[0m
+[2m├──[0m acorn[2m@8.15.0[0m
+[2m├──[0m acorn-jsx[2m@5.3.2[0m
+[2m├──[0m agentkeepalive[2m@4.6.0[0m
+[2m├──[0m ajv[2m@6.12.6[0m
+[2m├──[0m ansi-regex[2m@5.0.1[0m
+[2m├──[0m ansi-styles[2m@4.3.0[0m
+[2m├──[0m anymatch[2m@3.1.3[0m
+[2m│[0m   [2m└──[0m picomatch[2m@2.3.1[0m
+[2m├──[0m argon2id[2m@1.0.1[0m
+[2m├──[0m argparse[2m@2.0.1[0m
+[2m├──[0m aria-query[2m@5.3.2[0m
+[2m├──[0m array-buffer-byte-length[2m@1.0.2[0m
+[2m├──[0m array-includes[2m@3.1.9[0m
+[2m├──[0m array.prototype.findlast[2m@1.2.5[0m
+[2m├──[0m array.prototype.findlastindex[2m@1.2.6[0m
+[2m├──[0m array.prototype.flat[2m@1.3.3[0m
+[2m├──[0m array.prototype.flatmap[2m@1.3.3[0m
+[2m├──[0m array.prototype.tosorted[2m@1.1.4[0m
+[2m├──[0m arraybuffer.prototype.slice[2m@1.0.4[0m
+[2m├──[0m ast-types-flow[2m@0.0.8[0m
+[2m├──[0m async-function[2m@1.0.0[0m
+[2m├──[0m asynckit[2m@0.4.0[0m
+[2m├──[0m atomic-sleep[2m@1.0.0[0m
+[2m├──[0m available-typed-arrays[2m@1.0.7[0m
+[2m├──[0m axe-core[2m@4.11.0[0m
+[2m├──[0m axios[2m@1.13.2[0m
+[2m├──[0m axobject-query[2m@4.1.0[0m
+[2m├──[0m balanced-match[2m@1.0.2[0m
+[2m├──[0m base-x[2m@4.0.1[0m
+[2m├──[0m base64-js[2m@1.5.1[0m
+[2m├──[0m baseline-browser-mapping[2m@2.9.5[0m
+[2m├──[0m big.js[2m@6.2.2[0m
+[2m├──[0m bigint-buffer[2m@1.1.5[0m
+[2m├──[0m bignumber.js[2m@9.3.1[0m
+[2m├──[0m bindings[2m@1.5.0[0m
+[2m├──[0m blakejs[2m@1.2.1[0m
+[2m├──[0m bn.js[2m@5.2.2[0m
+[2m├──[0m borsh[2m@0.7.0[0m
+[2m│[0m   [2m└──[0m bs58[2m@4.0.1[0m
+[2m│[0m       [2m└──[0m base-x[2m@3.0.11[0m
+[2m│[0m           [2m└──[0m safe-buffer[2m@5.2.1[0m
+[2m├──[0m bowser[2m@2.13.1[0m
+[2m├──[0m brace-expansion[2m@1.1.12[0m
+[2m├──[0m braces[2m@3.0.3[0m
+[2m├──[0m browserslist[2m@4.28.1[0m
+[2m├──[0m bs58[2m@5.0.0[0m
+[2m├──[0m bs58check[2m@4.0.0[0m
+[2m│[0m   [2m└──[0m bs58[2m@6.0.0[0m
+[2m│[0m       [2m└──[0m base-x[2m@5.0.1[0m
+[2m├──[0m buffer[2m@6.0.3[0m
+[2m├──[0m bufferutil[2m@4.0.9[0m
+[2m├──[0m call-bind[2m@1.0.8[0m
+[2m├──[0m call-bind-apply-helpers[2m@1.0.2[0m
+[2m├──[0m call-bound[2m@1.0.4[0m
+[2m├──[0m callsites[2m@3.1.0[0m
+[2m├──[0m camelcase[2m@5.3.1[0m
+[2m├──[0m caniuse-lite[2m@1.0.30001760[0m
+[2m├──[0m chalk[2m@4.1.2[0m
+[2m├──[0m chokidar[2m@4.0.3[0m
+[2m├──[0m class-variance-authority[2m@0.7.1[0m
+[2m├──[0m client-only[2m@0.0.1[0m
+[2m├──[0m cliui[2m@6.0.0[0m
+[2m├──[0m clsx[2m@2.1.1[0m
+[2m├──[0m color[2m@4.2.3[0m
+[2m├──[0m color-convert[2m@2.0.1[0m
+[2m├──[0m color-name[2m@1.1.4[0m
+[2m├──[0m color-string[2m@1.9.1[0m
+[2m├──[0m combined-stream[2m@1.0.8[0m
+[2m├──[0m commander[2m@2.20.3[0m
+[2m├──[0m concat-map[2m@0.0.1[0m
+[2m├──[0m convert-source-map[2m@2.0.0[0m
+[2m├──[0m cookie-es[2m@1.2.2[0m
+[2m├──[0m core-util-is[2m@1.0.3[0m
+[2m├──[0m country-list[2m@2.3.0[0m
+[2m├──[0m crc-32[2m@1.2.2[0m
+[2m├──[0m cross-fetch[2m@4.1.0[0m
+[2m├──[0m cross-spawn[2m@7.0.6[0m
+[2m├──[0m crossws[2m@0.3.5[0m
+[2m├──[0m css-what[2m@6.2.2[0m
+[2m├──[0m cssesc[2m@3.0.0[0m
+[2m├──[0m csstype[2m@3.2.3[0m
+[2m├──[0m cuer[2m@0.0.3[0m
+[2m├──[0m damerau-levenshtein[2m@1.0.8[0m
+[2m├──[0m data-view-buffer[2m@1.0.2[0m
+[2m├──[0m data-view-byte-length[2m@1.0.2[0m
+[2m├──[0m data-view-byte-offset[2m@1.0.1[0m
+[2m├──[0m date-fns[2m@2.30.0[0m
+[2m├──[0m dayjs[2m@1.11.13[0m
+[2m├──[0m debug[2m@4.4.3[0m
+[2m├──[0m decamelize[2m@1.2.0[0m
+[2m├──[0m decode-uri-component[2m@0.2.2[0m
+[2m├──[0m dedent[2m@1.7.0[0m
+[2m├──[0m deep-is[2m@0.1.4[0m
+[2m├──[0m deep-object-diff[2m@1.1.9[0m
+[2m├──[0m deepmerge[2m@2.2.1[0m
+[2m├──[0m define-data-property[2m@1.1.4[0m
+[2m├──[0m define-properties[2m@1.2.1[0m
+[2m├──[0m defu[2m@6.1.4[0m
+[2m├──[0m delay[2m@5.0.0[0m
+[2m├──[0m delayed-stream[2m@1.0.0[0m
+[2m├──[0m depd[2m@2.0.0[0m
+[2m├──[0m derive-valtio[2m@0.1.0[0m
+[2m├──[0m destr[2m@2.0.5[0m
+[2m├──[0m detect-browser[2m@5.3.0[0m
+[2m├──[0m detect-libc[2m@2.1.2[0m
+[2m├──[0m detect-node-es[2m@1.1.0[0m
+[2m├──[0m dijkstrajs[2m@1.0.3[0m
+[2m├──[0m doctrine[2m@2.1.0[0m
+[2m├──[0m dunder-proto[2m@1.0.1[0m
+[2m├──[0m duplexify[2m@4.1.3[0m
+[2m├──[0m eciesjs[2m@0.4.16[0m
+[2m│[0m   [2m└──[0m @noble/curves[2m@1.9.7[0m
+[2m├──[0m electron-to-chromium[2m@1.5.267[0m
+[2m├──[0m emoji-regex[2m@9.2.2[0m
+[2m├──[0m encode-utf8[2m@1.0.3[0m
+[2m├──[0m end-of-stream[2m@1.4.5[0m
+[2m├──[0m engine.io-client[2m@6.6.3[0m
+[2m│[0m   [2m├──[0m debug[2m@4.3.7[0m
+[2m│[0m   [2m└──[0m ws[2m@8.17.1[0m
+[2m├──[0m engine.io-parser[2m@5.2.3[0m
+[2m├──[0m enhanced-resolve[2m@5.18.3[0m
+[2m├──[0m es-abstract[2m@1.24.0[0m
+[2m├──[0m es-define-property[2m@1.0.1[0m
+[2m├──[0m es-errors[2m@1.3.0[0m
+[2m├──[0m es-iterator-helpers[2m@1.2.1[0m
+[2m├──[0m es-object-atoms[2m@1.1.1[0m
+[2m├──[0m es-set-tostringtag[2m@2.1.0[0m
+[2m├──[0m es-shim-unscopables[2m@1.1.0[0m
+[2m├──[0m es-to-primitive[2m@1.3.0[0m
+[2m├──[0m es-toolkit[2m@1.39.3[0m
+[2m├──[0m es6-promise[2m@4.2.8[0m
+[2m├──[0m es6-promisify[2m@5.0.0[0m
+[2m├──[0m escalade[2m@3.2.0[0m
+[2m├──[0m escape-string-regexp[2m@4.0.0[0m
+[2m├──[0m eslint[2m@9.39.1[0m
+[2m├──[0m eslint-config-next[2m@16.0.8[0m
+[2m├──[0m eslint-import-resolver-node[2m@0.3.9[0m
+[2m│[0m   [2m└──[0m debug[2m@3.2.7[0m
+[2m├──[0m eslint-import-resolver-typescript[2m@3.10.1[0m
+[2m├──[0m eslint-module-utils[2m@2.12.1[0m
+[2m│[0m   [2m└──[0m debug[2m@3.2.7[0m
+[2m├──[0m eslint-plugin-import[2m@2.32.0[0m
+[2m│[0m   [2m└──[0m debug[2m@3.2.7[0m
+[2m├──[0m eslint-plugin-jsx-a11y[2m@6.10.2[0m
+[2m├──[0m eslint-plugin-react[2m@7.37.5[0m
+[2m│[0m   [2m└──[0m resolve[2m@2.0.0-next.5[0m
+[2m├──[0m eslint-plugin-react-hooks[2m@7.0.1[0m
+[2m├──[0m eslint-scope[2m@8.4.0[0m
+[2m├──[0m eslint-visitor-keys[2m@4.2.1[0m
+[2m├──[0m espree[2m@10.4.0[0m
+[2m├──[0m esquery[2m@1.6.0[0m
+[2m├──[0m esrecurse[2m@4.3.0[0m
+[2m├──[0m estraverse[2m@5.3.0[0m
+[2m├──[0m esutils[2m@2.0.3[0m
+[2m├──[0m eth-rpc-errors[2m@4.0.3[0m
+[2m├──[0m ethereum-cryptography[2m@2.2.1[0m
+[2m│[0m   [2m├──[0m @noble/curves[2m@1.4.2[0m
+[2m│[0m   [2m├──[0m @noble/hashes[2m@1.4.0[0m
+[2m│[0m   [2m├──[0m @scure/bip32[2m@1.4.0[0m
+[2m│[0m   [2m│[0m   [2m└──[0m @scure/base[2m@1.1.9[0m
+[2m│[0m   [2m└──[0m @scure/bip39[2m@1.3.0[0m
+[2m│[0m       [2m└──[0m @scure/base[2m@1.1.9[0m
+[2m├──[0m eventemitter2[2m@6.4.9[0m
+[2m├──[0m eventemitter3[2m@5.0.1[0m
+[2m├──[0m events[2m@3.3.0[0m
+[2m├──[0m extension-port-stream[2m@3.0.0[0m
+[2m├──[0m eyes[2m@0.1.8[0m
+[2m├──[0m fast-deep-equal[2m@3.1.3[0m
+[2m├──[0m fast-glob[2m@3.3.1[0m
+[2m│[0m   [2m└──[0m glob-parent[2m@5.1.2[0m
+[2m├──[0m fast-json-stable-stringify[2m@2.1.0[0m
+[2m├──[0m fast-levenshtein[2m@2.0.6[0m
+[2m├──[0m fast-redact[2m@3.5.0[0m
+[2m├──[0m fast-safe-stringify[2m@2.1.1[0m
+[2m├──[0m fast-stable-stringify[2m@1.0.0[0m
+[2m├──[0m fastestsmallesttextencoderdecoder[2m@1.0.22[0m
+[2m├──[0m fastq[2m@1.19.1[0m
+[2m├──[0m fdir[2m@6.5.0[0m
+[2m├──[0m file-entry-cache[2m@8.0.0[0m
+[2m├──[0m file-uri-to-path[2m@1.0.0[0m
+[2m├──[0m fill-range[2m@7.1.1[0m
+[2m├──[0m filter-obj[2m@1.1.0[0m
+[2m├──[0m find-up[2m@5.0.0[0m
+[2m├──[0m flat-cache[2m@4.0.1[0m
+[2m├──[0m flatted[2m@3.3.3[0m
+[2m├──[0m focus-lock[2m@1.3.6[0m
+[2m├──[0m follow-redirects[2m@1.15.11[0m
+[2m├──[0m for-each[2m@0.3.5[0m
+[2m├──[0m form-data[2m@4.0.5[0m
+[2m├──[0m formik[2m@2.2.9[0m
+[2m│[0m   [2m└──[0m tslib[2m@1.14.1[0m
+[2m├──[0m fp-ts[2m@2.16.11[0m
+[2m├──[0m framer-motion[2m@12.23.25[0m
+[2m├──[0m function-bind[2m@1.1.2[0m
+[2m├──[0m function.prototype.name[2m@1.1.8[0m
+[2m├──[0m functions-have-names[2m@1.2.3[0m
+[2m├──[0m generator-function[2m@2.0.1[0m
+[2m├──[0m gensync[2m@1.0.0-beta.2[0m
+[2m├──[0m get-caller-file[2m@2.0.5[0m
+[2m├──[0m get-intrinsic[2m@1.3.0[0m
+[2m├──[0m get-nonce[2m@1.0.1[0m
+[2m├──[0m get-proto[2m@1.0.1[0m
+[2m├──[0m get-symbol-description[2m@1.1.0[0m
+[2m├──[0m get-tsconfig[2m@4.13.0[0m
+[2m├──[0m glob-parent[2m@6.0.2[0m
+[2m├──[0m globals[2m@16.4.0[0m
+[2m├──[0m globalthis[2m@1.0.4[0m
+[2m├──[0m gopd[2m@1.2.0[0m
+[2m├──[0m gql.tada[2m@1.9.0[0m
+[2m├──[0m graceful-fs[2m@4.2.11[0m
+[2m├──[0m graphql[2m@16.12.0[0m
+[2m├──[0m h3[2m@1.15.4[0m
+[2m├──[0m has-bigints[2m@1.1.0[0m
+[2m├──[0m has-flag[2m@4.0.0[0m
+[2m├──[0m has-property-descriptors[2m@1.0.2[0m
+[2m├──[0m has-proto[2m@1.2.0[0m
+[2m├──[0m has-symbols[2m@1.1.0[0m
+[2m├──[0m has-tostringtag[2m@1.0.2[0m
+[2m├──[0m hasown[2m@2.0.2[0m
+[2m├──[0m hermes-estree[2m@0.25.1[0m
+[2m├──[0m hermes-parser[2m@0.25.1[0m
+[2m├──[0m hoist-non-react-statics[2m@3.3.2[0m
+[2m├──[0m hpke-js[2m@1.6.5[0m
+[2m├──[0m html-parse-stringify[2m@3.0.1[0m
+[2m├──[0m http-errors[2m@2.0.0[0m
+[2m├──[0m humanize-ms[2m@1.2.1[0m
+[2m├──[0m i18next[2m@23.4.6[0m
+[2m├──[0m iceberg-js[2m@0.8.1[0m
+[2m├──[0m idb-keyval[2m@6.2.2[0m
+[2m├──[0m ieee754[2m@1.2.1[0m
+[2m├──[0m ignore[2m@5.3.2[0m
+[2m├──[0m import-fresh[2m@3.3.1[0m
+[2m├──[0m imurmurhash[2m@0.1.4[0m
+[2m├──[0m inherits[2m@2.0.4[0m
+[2m├──[0m internal-slot[2m@1.1.0[0m
+[2m├──[0m io-ts[2m@2.2.22[0m
+[2m├──[0m iron-webcrypto[2m@1.2.1[0m
+[2m├──[0m is-arguments[2m@1.2.0[0m
+[2m├──[0m is-array-buffer[2m@3.0.5[0m
+[2m├──[0m is-arrayish[2m@0.3.4[0m
+[2m├──[0m is-async-function[2m@2.1.1[0m
+[2m├──[0m is-bigint[2m@1.1.0[0m
+[2m├──[0m is-boolean-object[2m@1.2.2[0m
+[2m├──[0m is-bun-module[2m@2.0.0[0m
+[2m│[0m   [2m└──[0m semver[2m@7.7.3[0m
+[2m├──[0m is-callable[2m@1.2.7[0m
+[2m├──[0m is-core-module[2m@2.16.1[0m
+[2m├──[0m is-data-view[2m@1.0.2[0m
+[2m├──[0m is-date-object[2m@1.1.0[0m
+[2m├──[0m is-extglob[2m@2.1.1[0m
+[2m├──[0m is-finalizationregistry[2m@1.1.1[0m
+[2m├──[0m is-fullwidth-code-point[2m@3.0.0[0m
+[2m├──[0m is-generator-function[2m@1.1.2[0m
+[2m├──[0m is-glob[2m@4.0.3[0m
+[2m├──[0m is-map[2m@2.0.3[0m
+[2m├──[0m is-negative-zero[2m@2.0.3[0m
+[2m├──[0m is-number[2m@7.0.0[0m
+[2m├──[0m is-number-object[2m@1.1.1[0m
+[2m├──[0m is-regex[2m@1.2.1[0m
+[2m├──[0m is-set[2m@2.0.3[0m
+[2m├──[0m is-shared-array-buffer[2m@1.0.4[0m
+[2m├──[0m is-stream[2m@2.0.1[0m
+[2m├──[0m is-string[2m@1.1.1[0m
+[2m├──[0m is-symbol[2m@1.1.1[0m
+[2m├──[0m is-typed-array[2m@1.1.15[0m
+[2m├──[0m is-weakmap[2m@2.0.2[0m
+[2m├──[0m is-weakref[2m@1.1.1[0m
+[2m├──[0m is-weakset[2m@2.0.4[0m
+[2m├──[0m isarray[2m@2.0.5[0m
+[2m├──[0m isexe[2m@2.0.0[0m
+[2m├──[0m isomorphic-ws[2m@4.0.1[0m
+[2m├──[0m isows[2m@1.0.7[0m
+[2m├──[0m iterator.prototype[2m@1.1.5[0m
+[2m├──[0m jayson[2m@4.2.0[0m
+[2m│[0m   [2m├──[0m @types/node[2m@12.20.55[0m
+[2m│[0m   [2m├──[0m @types/ws[2m@7.4.7[0m
+[2m│[0m   [2m│[0m   [2m└──[0m @types/node[2m@20.19.26[0m
+[2m│[0m   [2m└──[0m ws[2m@7.5.10[0m
+[2m├──[0m jiti[2m@2.6.1[0m
+[2m├──[0m js-tokens[2m@4.0.0[0m
+[2m├──[0m js-yaml[2m@4.1.1[0m
+[2m├──[0m jsesc[2m@3.1.0[0m
+[2m├──[0m json-buffer[2m@3.0.1[0m
+[2m├──[0m json-schema-traverse[2m@0.4.1[0m
+[2m├──[0m json-stable-stringify-without-jsonify[2m@1.0.1[0m
+[2m├──[0m json-stringify-safe[2m@5.0.1[0m
+[2m├──[0m json5[2m@1.0.2[0m
+[2m├──[0m jsx-ast-utils[2m@3.3.5[0m
+[2m├──[0m keyv[2m@4.5.4[0m
+[2m├──[0m keyvaluestorage-interface[2m@1.0.0[0m
+[2m├──[0m language-subtag-registry[2m@0.3.23[0m
+[2m├──[0m language-tags[2m@1.0.9[0m
+[2m├──[0m levn[2m@0.4.1[0m
+[2m├──[0m lightningcss[2m@1.30.2[0m
+[2m├──[0m lightningcss-android-arm64[2m@1.30.2[0m
+[2m├──[0m lightningcss-darwin-arm64[2m@1.30.2[0m
+[2m├──[0m lightningcss-darwin-x64[2m@1.30.2[0m
+[2m├──[0m lightningcss-freebsd-x64[2m@1.30.2[0m
+[2m├──[0m lightningcss-linux-arm-gnueabihf[2m@1.30.2[0m
+[2m├──[0m lightningcss-linux-arm64-gnu[2m@1.30.2[0m
+[2m├──[0m lightningcss-linux-arm64-musl[2m@1.30.2[0m
+[2m├──[0m lightningcss-linux-x64-gnu[2m@1.30.2[0m
+[2m├──[0m lightningcss-linux-x64-musl[2m@1.30.2[0m
+[2m├──[0m lightningcss-win32-arm64-msvc[2m@1.30.2[0m
+[2m├──[0m lightningcss-win32-x64-msvc[2m@1.30.2[0m
+[2m├──[0m lit[2m@3.3.0[0m
+[2m├──[0m lit-element[2m@4.2.1[0m
+[2m├──[0m lit-html[2m@3.3.1[0m
+[2m├──[0m locate-path[2m@6.0.0[0m
+[2m├──[0m lodash[2m@4.17.21[0m
+[2m├──[0m lodash-es[2m@4.17.21[0m
+[2m├──[0m lodash.merge[2m@4.6.2[0m
+[2m├──[0m loose-envify[2m@1.4.0[0m
+[2m├──[0m lottie-react[2m@2.4.1[0m
+[2m├──[0m lottie-web[2m@5.13.0[0m
+[2m├──[0m lru-cache[2m@10.4.3[0m
+[2m├──[0m lucide-react[2m@0.556.0[0m
+[2m├──[0m magic-string[2m@0.30.21[0m
+[2m├──[0m math-intrinsics[2m@1.1.0[0m
+[2m├──[0m media-query-parser[2m@2.0.2[0m
+[2m├──[0m merge2[2m@1.4.1[0m
+[2m├──[0m micro-ftch[2m@0.3.1[0m
+[2m├──[0m micromatch[2m@4.0.8[0m
+[2m│[0m   [2m└──[0m picomatch[2m@2.3.1[0m
+[2m├──[0m mime-db[2m@1.52.0[0m
+[2m├──[0m mime-types[2m@2.1.35[0m
+[2m├──[0m mini-svg-data-uri[2m@1.4.4[0m
+[2m├──[0m minimatch[2m@3.1.2[0m
+[2m├──[0m minimist[2m@1.2.8[0m
+[2m├──[0m mipd[2m@0.0.7[0m
+[2m├──[0m modern-ahocorasick[2m@1.1.0[0m
+[2m├──[0m motion-dom[2m@12.23.23[0m
+[2m├──[0m motion-utils[2m@12.23.6[0m
+[2m├──[0m ms[2m@2.1.3[0m
+[2m├──[0m multiformats[2m@9.9.0[0m
+[2m├──[0m nanoclone[2m@0.2.1[0m
+[2m├──[0m nanoid[2m@3.3.11[0m
+[2m├──[0m napi-postinstall[2m@0.3.4[0m
+[2m├──[0m natural-compare[2m@1.4.0[0m
+[2m├──[0m next[2m@16.0.8[0m
+[2m│[0m   [2m└──[0m postcss[2m@8.4.31[0m
+[2m├──[0m node-fetch[2m@2.7.0[0m
+[2m├──[0m node-fetch-native[2m@1.6.7[0m
+[2m├──[0m node-gyp-build[2m@4.8.4[0m
+[2m├──[0m node-mock-http[2m@1.0.4[0m
+[2m├──[0m node-releases[2m@2.0.27[0m
+[2m├──[0m normalize-path[2m@3.0.0[0m
+[2m├──[0m obj-multiplex[2m@1.0.0[0m
+[2m│[0m   [2m└──[0m readable-stream[2m@2.3.8[0m
+[2m│[0m       [2m├──[0m isarray[2m@1.0.0[0m
+[2m│[0m       [2m└──[0m string_decoder[2m@1.1.1[0m
+[2m├──[0m object-assign[2m@4.1.1[0m
+[2m├──[0m object-inspect[2m@1.13.4[0m
+[2m├──[0m object-keys[2m@1.1.1[0m
+[2m├──[0m object.assign[2m@4.1.7[0m
+[2m├──[0m object.entries[2m@1.1.9[0m
+[2m├──[0m object.fromentries[2m@2.0.8[0m
+[2m├──[0m object.groupby[2m@1.0.3[0m
+[2m├──[0m object.values[2m@1.2.1[0m
+[2m├──[0m ofetch[2m@1.5.1[0m
+[2m├──[0m on-exit-leak-free[2m@0.2.0[0m
+[2m├──[0m once[2m@1.4.0[0m
+[2m├──[0m openapi-fetch[2m@0.13.8[0m
+[2m├──[0m openapi-typescript-helpers[2m@0.0.15[0m
+[2m├──[0m optionator[2m@0.9.4[0m
+[2m├──[0m own-keys[2m@1.0.1[0m
+[2m├──[0m ox[2m@0.9.17[0m
+[2m├──[0m p-limit[2m@3.1.0[0m
+[2m├──[0m p-locate[2m@5.0.0[0m
+[2m├──[0m p-try[2m@2.2.0[0m
+[2m├──[0m parent-module[2m@1.0.1[0m
+[2m├──[0m path-exists[2m@4.0.0[0m
+[2m├──[0m path-key[2m@3.1.1[0m
+[2m├──[0m path-parse[2m@1.0.7[0m
+[2m├──[0m picocolors[2m@1.1.1[0m
+[2m├──[0m picomatch[2m@4.0.3[0m
+[2m├──[0m pino[2m@7.11.0[0m
+[2m├──[0m pino-abstract-transport[2m@0.5.0[0m
+[2m├──[0m pino-std-serializers[2m@4.0.0[0m
+[2m├──[0m pngjs[2m@5.0.0[0m
+[2m├──[0m pony-cause[2m@2.1.11[0m
+[2m├──[0m poseidon-lite[2m@0.2.1[0m
+[2m├──[0m possible-typed-array-names[2m@1.1.0[0m
+[2m├──[0m postcss[2m@8.5.6[0m
+[2m├──[0m preact[2m@10.28.0[0m
+[2m├──[0m prelude-ls[2m@1.2.1[0m
+[2m├──[0m process-nextick-args[2m@2.0.1[0m
+[2m├──[0m process-warning[2m@1.0.0[0m
+[2m├──[0m prop-types[2m@15.8.1[0m
+[2m├──[0m property-expr[2m@2.0.6[0m
+[2m├──[0m proxy-compare[2m@2.6.0[0m
+[2m├──[0m proxy-from-env[2m@1.1.0[0m
+[2m├──[0m pump[2m@3.0.3[0m
+[2m├──[0m punycode[2m@2.3.1[0m
+[2m├──[0m qr[2m@0.5.3[0m
+[2m├──[0m qrcode[2m@1.5.1[0m
+[2m├──[0m query-string[2m@7.1.3[0m
+[2m├──[0m queue-microtask[2m@1.2.3[0m
+[2m├──[0m quick-format-unescaped[2m@4.0.4[0m
+[2m├──[0m radix3[2m@1.1.2[0m
+[2m├──[0m react[2m@19.2.1[0m
+[2m├──[0m react-clientside-effect[2m@1.2.8[0m
+[2m├──[0m react-dom[2m@19.2.1[0m
+[2m├──[0m react-fast-compare[2m@2.0.4[0m
+[2m├──[0m react-focus-lock[2m@2.13.6[0m
+[2m├──[0m react-i18next[2m@13.5.0[0m
+[2m├──[0m react-international-phone[2m@4.5.0[0m
+[2m├──[0m react-is[2m@16.13.1[0m
+[2m├──[0m react-remove-scroll[2m@2.6.2[0m
+[2m├──[0m react-remove-scroll-bar[2m@2.3.8[0m
+[2m├──[0m react-style-singleton[2m@2.2.3[0m
+[2m├──[0m readable-stream[2m@3.6.2[0m
+[2m├──[0m readdirp[2m@4.1.2[0m
+[2m├──[0m real-require[2m@0.1.0[0m
+[2m├──[0m reflect.getprototypeof[2m@1.0.10[0m
+[2m├──[0m regexp.prototype.flags[2m@1.5.4[0m
+[2m├──[0m require-directory[2m@2.1.1[0m
+[2m├──[0m require-main-filename[2m@2.0.0[0m
+[2m├──[0m resolve[2m@1.22.11[0m
+[2m├──[0m resolve-from[2m@4.0.0[0m
+[2m├──[0m resolve-pkg-maps[2m@1.0.0[0m
+[2m├──[0m reusify[2m@1.1.0[0m
+[2m├──[0m rpc-websockets[2m@9.3.2[0m
+[2m├──[0m run-parallel[2m@1.2.0[0m
+[2m├──[0m safe-array-concat[2m@1.1.3[0m
+[2m├──[0m safe-buffer[2m@5.1.2[0m
+[2m├──[0m safe-push-apply[2m@1.0.0[0m
+[2m├──[0m safe-regex-test[2m@1.1.0[0m
+[2m├──[0m safe-stable-stringify[2m@2.5.0[0m
+[2m├──[0m scheduler[2m@0.27.0[0m
+[2m├──[0m semver[2m@6.3.1[0m
+[2m├──[0m set-blocking[2m@2.0.0[0m
+[2m├──[0m set-function-length[2m@1.2.2[0m
+[2m├──[0m set-function-name[2m@2.0.2[0m
+[2m├──[0m set-proto[2m@1.0.0[0m
+[2m├──[0m setprototypeof[2m@1.2.0[0m
+[2m├──[0m sha256-uint8array[2m@0.10.7[0m
+[2m├──[0m sharp[2m@0.34.5[0m
+[2m│[0m   [2m└──[0m semver[2m@7.7.3[0m
+[2m├──[0m shebang-command[2m@2.0.0[0m
+[2m├──[0m shebang-regex[2m@3.0.0[0m
+[2m├──[0m side-channel[2m@1.1.0[0m
+[2m├──[0m side-channel-list[2m@1.0.0[0m
+[2m├──[0m side-channel-map[2m@1.0.1[0m
+[2m├──[0m side-channel-weakmap[2m@1.0.2[0m
+[2m├──[0m simple-swizzle[2m@0.2.4[0m
+[2m├──[0m socket.io-client[2m@4.8.1[0m
+[2m│[0m   [2m└──[0m debug[2m@4.3.7[0m
+[2m├──[0m socket.io-parser[2m@4.2.4[0m
+[2m│[0m   [2m└──[0m debug[2m@4.3.7[0m
+[2m├──[0m sonic-boom[2m@2.8.0[0m
+[2m├──[0m source-map-js[2m@1.2.1[0m
+[2m├──[0m split-on-first[2m@1.1.0[0m
+[2m├──[0m split2[2m@4.2.0[0m
+[2m├──[0m stable-hash[2m@0.0.5[0m
+[2m├──[0m statuses[2m@2.0.1[0m
+[2m├──[0m stop-iteration-iterator[2m@1.1.0[0m
+[2m├──[0m stream-chain[2m@2.2.5[0m
+[2m├──[0m stream-json[2m@1.9.1[0m
+[2m├──[0m stream-shift[2m@1.0.3[0m
+[2m├──[0m strict-uri-encode[2m@2.0.0[0m
+[2m├──[0m string-width[2m@4.2.3[0m
+[2m│[0m   [2m└──[0m emoji-regex[2m@8.0.0[0m
+[2m├──[0m string.prototype.includes[2m@2.0.1[0m
+[2m├──[0m string.prototype.matchall[2m@4.0.12[0m
+[2m├──[0m string.prototype.repeat[2m@1.0.0[0m
+[2m├──[0m string.prototype.trim[2m@1.2.10[0m
+[2m├──[0m string.prototype.trimend[2m@1.0.9[0m
+[2m├──[0m string.prototype.trimstart[2m@1.0.8[0m
+[2m├──[0m string_decoder[2m@1.3.0[0m
+[2m│[0m   [2m└──[0m safe-buffer[2m@5.2.1[0m
+[2m├──[0m strip-ansi[2m@6.0.1[0m
+[2m├──[0m strip-bom[2m@3.0.0[0m
+[2m├──[0m strip-json-comments[2m@3.1.1[0m
+[2m├──[0m styled-jsx[2m@5.1.6[0m
+[2m├──[0m superstruct[2m@2.0.2[0m
+[2m├──[0m supports-color[2m@7.2.0[0m
+[2m├──[0m supports-preserve-symlinks-flag[2m@1.0.0[0m
+[2m├──[0m tailwind-merge[2m@3.4.0[0m
+[2m├──[0m tailwindcss[2m@4.1.17[0m
+[2m├──[0m tapable[2m@2.3.0[0m
+[2m├──[0m tempo.ts[2m@0.10.5[0m
+[2m├──[0m text-encoding[2m@0.7.0[0m
+[2m├──[0m text-encoding-utf-8[2m@1.0.2[0m
+[2m├──[0m thread-stream[2m@0.15.2[0m
+[2m├──[0m tiny-warning[2m@1.0.3[0m
+[2m├──[0m tinyglobby[2m@0.2.15[0m
+[2m├──[0m tldts[2m@6.0.16[0m
+[2m├──[0m tldts-core[2m@6.1.86[0m
+[2m├──[0m to-regex-range[2m@5.0.1[0m
+[2m├──[0m toidentifier[2m@1.0.1[0m
+[2m├──[0m toposort[2m@2.0.2[0m
+[2m├──[0m tr46[2m@0.0.3[0m
+[2m├──[0m ts-api-utils[2m@2.1.0[0m
+[2m├──[0m tsconfig-paths[2m@3.15.0[0m
+[2m├──[0m tslib[2m@2.8.1[0m
+[2m├──[0m type-check[2m@0.4.0[0m
+[2m├──[0m typed-array-buffer[2m@1.0.3[0m
+[2m├──[0m typed-array-byte-length[2m@1.0.3[0m
+[2m├──[0m typed-array-byte-offset[2m@1.0.4[0m
+[2m├──[0m typed-array-length[2m@1.0.7[0m
+[2m├──[0m typescript[2m@5.9.3[0m
+[2m├──[0m typescript-eslint[2m@8.49.0[0m
+[2m├──[0m ua-parser-js[2m@1.0.41[0m
+[2m├──[0m ufo[2m@1.6.1[0m
+[2m├──[0m uint8arrays[2m@3.1.1[0m
+[2m├──[0m unbox-primitive[2m@1.1.0[0m
+[2m├──[0m uncrypto[2m@0.1.3[0m
+[2m├──[0m undici-types[2m@6.21.0[0m
+[2m├──[0m unrs-resolver[2m@1.11.1[0m
+[2m├──[0m unstorage[2m@1.17.3[0m
+[2m├──[0m update-browserslist-db[2m@1.2.2[0m
+[2m├──[0m uri-js[2m@4.4.1[0m
+[2m├──[0m use-callback-ref[2m@1.3.3[0m
+[2m├──[0m use-sidecar[2m@1.1.3[0m
+[2m├──[0m use-sync-external-store[2m@1.4.0[0m
+[2m├──[0m utf-8-validate[2m@5.0.10[0m
+[2m├──[0m util[2m@0.12.5[0m
+[2m├──[0m util-deprecate[2m@1.0.2[0m
+[2m├──[0m uuid[2m@8.3.2[0m
+[2m├──[0m valibot[2m@0.36.0[0m
+[2m├──[0m valtio[2m@1.13.2[0m
+[2m│[0m   [2m└──[0m use-sync-external-store[2m@1.2.0[0m
+[2m├──[0m viem[2m@2.41.2[0m
+[2m│[0m   [2m└──[0m ox[2m@0.9.6[0m
+[2m├──[0m void-elements[2m@3.1.0[0m
+[2m├──[0m wagmi[2m@3.1.0[0m
+[2m├──[0m webextension-polyfill[2m@0.10.0[0m
+[2m├──[0m webidl-conversions[2m@3.0.1[0m
+[2m├──[0m whatwg-url[2m@5.0.0[0m
+[2m├──[0m which[2m@2.0.2[0m
+[2m├──[0m which-boxed-primitive[2m@1.1.1[0m
+[2m├──[0m which-builtin-type[2m@1.2.1[0m
+[2m├──[0m which-collection[2m@1.0.2[0m
+[2m├──[0m which-module[2m@2.0.1[0m
+[2m├──[0m which-typed-array[2m@1.1.19[0m
+[2m├──[0m word-wrap[2m@1.2.5[0m
+[2m├──[0m wrap-ansi[2m@6.2.0[0m
+[2m├──[0m wrappy[2m@1.0.2[0m
+[2m├──[0m ws[2m@8.18.3[0m
+[2m├──[0m xmlhttprequest-ssl[2m@2.1.2[0m
+[2m├──[0m y18n[2m@4.0.3[0m
+[2m├──[0m yallist[2m@3.1.1[0m
+[2m├──[0m yargs[2m@15.4.1[0m
+[2m│[0m   [2m└──[0m find-up[2m@4.1.0[0m
+[2m│[0m       [2m└──[0m locate-path[2m@5.0.0[0m
+[2m│[0m           [2m└──[0m p-locate[2m@4.1.0[0m
+[2m│[0m               [2m└──[0m p-limit[2m@2.3.0[0m
+[2m├──[0m yargs-parser[2m@18.1.3[0m
+[2m├──[0m yocto-queue[2m@0.1.0[0m
+[2m├──[0m yup[2m@0.32.11[0m
+[2m├──[0m zod[2m@4.1.13[0m
+[2m├──[0m zod-validation-error[2m@4.0.2[0m
+[2m└──[0m zustand[2m@5.0.0[0m
