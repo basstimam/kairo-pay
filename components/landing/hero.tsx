@@ -82,10 +82,12 @@ export function Hero() {
                 Create Kairo Link
                 <ArrowRight className="w-4 h-4 ml-2" />
               </Button>
-              <Button variant="secondary" size="xl" className="font-mono tracking-tight uppercase">
-                <Play className="w-4 h-4 mr-2 fill-current" />
-                How It Works
-              </Button>
+              <a href="#how-it-works">
+                <Button variant="secondary" size="xl" className="font-mono tracking-tight uppercase">
+                  <Play className="w-4 h-4 mr-2 fill-current" />
+                  How It Works
+                </Button>
+              </a>
             </motion.div>
             
             <motion.div 

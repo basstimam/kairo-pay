@@ -4,24 +4,24 @@ import { Link, Send, Zap } from "lucide-react";
 const steps = [
   {
     icon: Link,
-    title: "1. Create your Kairo link",
-    desc: "Claim your unique username (username.kairo.app). No confusing wallet addresses.",
+    title: "1. Create your Gig",
+    desc: "Define your service, set the price, and generate a secure link in seconds.",
   },
   {
     icon: Send,
-    title: "2. Send invoice",
-    desc: "Client pays with one click using any card or crypto. They don't need Kairo.",
+    title: "2. Share with Client",
+    desc: "Send your unique Kairo link to anyone. They pay with one click using cards or crypto.",
   },
   {
     icon: Zap,
-    title: "3. Money lands instantly",
-    desc: "Funds arrive in your wallet in <3 seconds. If it takes longer, fees are refunded.",
+    title: "3. Get Paid Instantly",
+    desc: "Money settles in your wallet in <3 seconds. No holding periods. No payout fees.",
   },
 ];
 
 export function HowItWorks() {
   return (
-    <section className="py-32 bg-white">
+    <section id="how-it-works" className="py-32 bg-white">
       <Container>
         <div className="text-center max-w-2xl mx-auto mb-20">
           <h2 className="text-4xl font-bold font-display text-forest mb-6">How It Works</h2>
