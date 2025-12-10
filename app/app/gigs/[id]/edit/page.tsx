@@ -2,7 +2,7 @@
 
 import { useState, use, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowLeft, Save, Trash2, Copy, ExternalLink } from "lucide-react";
+import { ArrowLeft, Save, Trash2, Copy } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
@@ -35,7 +35,15 @@ export default function EditGigPage({
     });
   }, [id]);
 
-  const gigLink = `kairo.app/naufal/${id}`; // In reality this would be dynamic
+  const [origin, setOrigin] = useState("https://kairo-pay.vercel.app");
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setOrigin(window.location.origin);
+    }
+  }, []);
+
+  const gigLink = `${origin}/pay/${id}`;
 
   const handleSave = async () => {
     setLoading(true);
@@ -70,7 +78,7 @@ export default function EditGigPage({
   };
 
   const copyLink = () => {
-    navigator.clipboard.writeText(`https://${gigLink}`);
+    navigator.clipboard.writeText(gigLink);
   };
 
   if (loading && !title) {
@@ -149,12 +157,6 @@ export default function EditGigPage({
             <Button variant="secondary" size="sm" onClick={copyLink}>
               <Copy className="w-4 h-4" />
             </Button>
-            <Link href={`/${id}`}>
-               {/* Note: In real app this would use username + slug */}
-              <Button variant="secondary" size="sm">
-                <ExternalLink className="w-4 h-4" />
-              </Button>
-            </Link>
           </div>
         </div>
 
