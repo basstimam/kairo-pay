@@ -87,7 +87,7 @@ export default async function PublicGigPage({
             {/* Pay Button */}
             <Link href={`/pay/${gigSlug || "demo"}`} className="block">
               <Button size="xl" className="w-full font-mono uppercase tracking-wider">
-                Pay with USDC <ArrowRight className="w-5 h-5 ml-2" />
+                Pay with USD <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </Link>
 

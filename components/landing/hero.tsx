@@ -2,12 +2,16 @@
 
 import { ArrowRight, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
 import { Container } from "@/components/ui/container";
 import { HeroAnimation } from "./hero-animation";
 import { motion, Variants } from "framer-motion";
+import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
+import { useRouter } from "next/navigation";
 
 export function Hero() {
+  const { primaryWallet } = useDynamicContext();
+  const router = useRouter();
+
   const containerVars: Variants = {
     hidden: { opacity: 0 },
     visible: {
@@ -57,19 +61,27 @@ export function Hero() {
               className="text-xl text-forest/80 mb-10 max-w-lg leading-relaxed font-mono text-sm tracking-tight"
               variants={itemVars}
             >
-              {"// INSTANT USDC PAYMENTS ON TEMPO."} <br/>
+              {"// INSTANT USD PAYMENTS ON TEMPO."} <br/>
               {"// NO FEES. NO WAITING. NO EXCUSES."}
             </motion.p>
             <motion.div 
               className="flex flex-col sm:flex-row gap-4"
               variants={itemVars}
             >
-              <Link href="/app/gigs/new">
-                <Button size="xl" className="font-mono tracking-tight uppercase">
-                  Create Kairo Link
-                  <ArrowRight className="w-4 h-4 ml-2" />
-                </Button>
-              </Link>
+              <Button 
+                size="xl" 
+                className="font-mono tracking-tight uppercase"
+                onClick={() => {
+                  if (primaryWallet) {
+                    router.push("/app");
+                  } else {
+                    router.push("/login");
+                  }
+                }}
+              >
+                Create Kairo Link
+                <ArrowRight className="w-4 h-4 ml-2" />
+              </Button>
               <Button variant="secondary" size="xl" className="font-mono tracking-tight uppercase">
                 <Play className="w-4 h-4 mr-2 fill-current" />
                 How It Works

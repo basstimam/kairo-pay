@@ -6,12 +6,12 @@ import { supabase } from '@/lib/supabase';
 import { revalidatePath, unstable_noStore as noStore } from 'next/cache';
 
 // Ensure these are set in .env
-const USDC_ADDRESS = '0x20c0000000000000000000000000000000000001' as `0x${string}`; // Default AlphaUSD (USDC)
+const USDC_ADDRESS = '0x20c0000000000000000000000000000000000001' as `0x${string}`; // Default AlphaUSD (USD)
 
 interface PaymentProps {
   gigId: string;
   hash: `0x${string}`;
-  amount: number; // Amount in human readable USDC (e.g., 500)
+  amount: number; // Amount in human readable USD (e.g., 500)
   freelancerAddress: `0x${string}`;
   clientAddress: `0x${string}`;
   startTime: number;
@@ -36,7 +36,7 @@ export async function payAction({ gigId, hash, amount, freelancerAddress, client
     const duration = endTime - startTime;
     console.log(`Transaction finalized in ${duration}ms`);
 
-    const amountBigInt = parseUnits(amount.toString(), 6); // USDC has 6 decimals
+    const amountBigInt = parseUnits(amount.toString(), 6); // USD has 6 decimals
 
     // 2. Check SLA (3000ms)
     // NOTE: In production, rely on block timestamps relative to submission, 

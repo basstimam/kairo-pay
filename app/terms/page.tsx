@@ -37,7 +37,7 @@ export default function TermsPage() {
 
           <h2 className="text-2xl font-serif text-forest mt-8">4. Payments and Fees</h2>
           <p>
-            Kairo charges zero fees for payment processing. All payments are settled in USDC on the 
+            Kairo charges zero fees for payment processing. All payments are settled in USD on the 
             Tempo blockchain. Withdrawal fees may apply depending on your chosen withdrawal method.
           </p>
 

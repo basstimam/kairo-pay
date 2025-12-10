@@ -103,7 +103,7 @@ export default function NewGigPage() {
         </div>
 
         <div className="space-y-4">
-          <label className="block text-sm font-medium text-forest">Price (USDC)</label>
+          <label className="block text-sm font-medium text-forest">Price (USD)</label>
           <div className="relative">
             <span className="absolute left-4 top-1/2 -translate-y-1/2 text-forest/40">$</span>
             <input 

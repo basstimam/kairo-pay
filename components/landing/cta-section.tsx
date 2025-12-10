@@ -1,8 +1,15 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Container } from "@/components/ui/container";
 import { ArrowRight } from "lucide-react";
+import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
+import { useRouter } from "next/navigation";
 
 export function CtaSection() {
+  const { primaryWallet } = useDynamicContext();
+  const router = useRouter();
+
   return (
     <section className="py-32 bg-forest text-white relative overflow-hidden">
        {/* Decor */}
@@ -18,7 +25,17 @@ export function CtaSection() {
          </p>
          
          <div className="flex flex-col items-center">
-            <Button size="xl" className="bg-emerald text-white hover:bg-emerald/90 border-0">
+            <Button 
+              size="xl" 
+              className="bg-emerald text-white hover:bg-emerald/90 border-0"
+              onClick={() => {
+                if (primaryWallet) {
+                  router.push("/app");
+                } else {
+                  router.push("/login");
+                }
+              }}
+            >
                Get Your Kairo Link
                <ArrowRight className="w-5 h-5 ml-2" />
             </Button>

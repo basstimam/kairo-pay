@@ -167,7 +167,7 @@ export default function PayPage() {
 
             <div className="flex items-end justify-center mb-10">
               <span className="text-5xl font-bold font-mono text-forest tracking-tighter">${gig.price.toFixed(2)}</span>
-              <span className="text-forest/40 font-mono ml-2 mb-2">USDC</span>
+              <span className="text-forest/40 font-mono ml-2 mb-2">USD</span>
             </div>
 
             <div className="space-y-4">
