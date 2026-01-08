@@ -1,12 +1,13 @@
 'use server';
 
 import { walletClient, publicClient } from '@/lib/tempo-client';
-import { parseUnits } from 'viem';
 import { supabase } from '@/lib/supabase';
 import { revalidatePath, unstable_noStore as noStore } from 'next/cache';
+import { parseAmount, generateStructuredMemo, ensureAddress, TEMPO_POLLING_INTERVAL } from '@/lib/tempo-helpers';
 
-// Ensure these are set in .env
-const USDC_ADDRESS = '0x20c0000000000000000000000000000000000001' as `0x${string}`; // Default AlphaUSD (USD)
+import { STABLECOINS } from '@/lib/tempo-helpers';
+
+const USDC_ADDRESS = STABLECOINS.alphaUSD; // Default AlphaUSD (USD)
 
 interface PaymentProps {
   gigId: string;
@@ -36,7 +37,7 @@ export async function payAction({ gigId, hash, amount, freelancerAddress, client
     const duration = endTime - startTime;
     console.log(`Transaction finalized in ${duration}ms`);
 
-    const amountBigInt = parseUnits(amount.toString(), 6); // USD has 6 decimals
+    const amountBigInt = parseAmount(amount); // USD has 6 decimals
 
     // 2. Check SLA (3000ms)
     // NOTE: In production, rely on block timestamps relative to submission, 
@@ -50,27 +51,44 @@ export async function payAction({ gigId, hash, amount, freelancerAddress, client
     
     if (duration > 3000) {
       console.log('SLA breached. Initiating Refund...');
-      // 3. Refund 100% to Client
-      // Tempo Native Action: refund via token.transfer
+      const refundMemo = generateStructuredMemo('REF', gigId, Date.now());
+
       const refundTx = await walletClient.token.transfer({
         token: USDC_ADDRESS,
         to: clientAddress,
         amount: amountBigInt,
+        memo: refundMemo,
       });
+
+      await supabase
+        .from('transactions')
+        .insert([
+          {
+            gig_id: gigId,
+            client_address: clientAddress,
+            freelancer_address: freelancerAddress,
+            amount: amount,
+            tx_hash: hash,
+            status: 'refunded',
+            memo: refundMemo
+          }
+        ]);
+
       return { status: 'refunded', message: "It's free! (SLA Breached)", duration, tx: refundTx };
     }
 
     // 4. Success - Forward 99.5% to Freelancer
     const fee = (amountBigInt * 5n) / 1000n; // 0.5% (5/1000)
     const netAmount = amountBigInt - fee;
+    const memo = generateStructuredMemo('PAY', gigId, Date.now());
 
-    console.log(`Forwarding ${netAmount.toString()} to ${freelancerAddress}. Fee: ${fee.toString()}`);
+    console.log(`Forwarding ${netAmount.toString()} to ${freelancerAddress}. Fee: ${fee.toString()}. Memo: ${memo}`);
 
-    // Use Tempo Native Action: token.transfer
     const forwardTx = await walletClient.token.transfer({
       token: USDC_ADDRESS,
       to: freelancerAddress,
       amount: netAmount,
+      memo,
     });
 
     // 5. Update Status in Supabase
@@ -94,7 +112,8 @@ export async function payAction({ gigId, hash, amount, freelancerAddress, client
           freelancer_address: freelancerAddress,
           amount: amount,
           tx_hash: hash,
-          status: 'success'
+          status: 'success',
+          memo: memo
         }
       ]);
 

@@ -4,29 +4,22 @@ import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Plus, ArrowUpRight, DollarSign, Calendar, Loader2 } from "lucide-react";
 import Link from "next/link";
-import { useAccount, useReadContract, useWatchContractEvent } from "wagmi";
+import { useAccount, useWatchContractEvent } from "wagmi";
 import { erc20Abi } from "viem";
 import { getGigsByAddress, Gig } from "@/app/actions/gig";
+import { useMultiBalance } from "@/lib/hooks";
+import { formatAmount, getAllStablecoinAddresses, parseStructuredMemo } from "@/lib/tempo-helpers";
 
 export default function DashboardPage() {
   const { address, isConnected } = useAccount();
-  const { data: balanceData, refetch: refetchBalance } = useReadContract({
-    address: '0x20c0000000000000000000000000000000000001',
-    abi: erc20Abi,
-    functionName: 'balanceOf',
-    args: [address as `0x${string}`],
-    query: {
-      refetchInterval: 2000,
-      enabled: !!address
-    }
-  });
+  const { balances, totalBalance, refetch: refetchBalances } = useMultiBalance();
   const [gigs, setGigs] = useState<Gig[]>([]);
   const [loading, setLoading] = useState(false);
   const [stats, setStats] = useState({ totalEarnings: 0 });
 
   // Realtime: Watch for incoming transfers (On-Chain Event)
   useWatchContractEvent({
-    address: '0x20c0000000000000000000000000000000000001',
+    address: '0x20c0000000000000000000000000000000000001', // AlphaUSD
     abi: erc20Abi,
     eventName: 'Transfer',
     args: { to: address }, // Filter: Only transfers TO me
@@ -36,7 +29,7 @@ export default function DashboardPage() {
       setTimeout(() => {
         getGigsByAddress(address!).then(setGigs);
         import('@/app/actions/pay').then(mod => mod.getWalletStats(address!).then(setStats));
-        refetchBalance(); 
+        refetchBalances();
       }, 2000);
     },
   });
@@ -112,12 +105,21 @@ export default function DashboardPage() {
         </div>
 
         <div className="bg-white p-8 rounded-xl border border-forest/5 shadow-sm">
-           <div className="text-forest/60 font-mono text-sm tracking-widest uppercase mb-2">Wallet Balance</div>
-           <div className="text-4xl font-mono font-bold text-forest mb-2">
-             {balanceData ? (Number(balanceData) / 10**6).toLocaleString('en-US', { minimumFractionDigits: 2 }) : '0.00'}
-           </div>
-           <p className="text-sm text-forest/40">aUSD (AlphaUSD)</p>
-        </div>
+            <div className="text-forest/60 font-mono text-sm tracking-widest uppercase mb-2">Total Balance</div>
+            <div className="text-4xl font-mono font-bold text-forest mb-2">
+              ${totalBalance.toLocaleString('en-US', { minimumFractionDigits: 2 })}
+            </div>
+            <div className="space-y-1 text-xs text-forest/40">
+              {Object.entries(balances).map(([token, data]) => (
+                data.usdValue > 0 && (
+                  <div key={token} className="flex justify-between">
+                    <span>{token}</span>
+                    <span>${data.usdValue.toFixed(2)}</span>
+                  </div>
+                )
+              ))}
+            </div>
+         </div>
       </div>
 
       {/* Recent Activity / Gigs */}
@@ -177,6 +179,7 @@ interface Transaction {
   created_at: string;
   tx_hash: string;
   gigs: { title: string };
+  memo?: string;
 }
 
 function LatestTransactions({ address }: { address: `0x${string}` | undefined }) {
@@ -228,12 +231,20 @@ function LatestTransactions({ address }: { address: `0x${string}` | undefined })
               <div className="w-10 h-10 bg-slate-200 rounded-full flex items-center justify-center text-slate-500">
                 <ArrowUpRight className="w-5 h-5" />
               </div>
-              <div>
-                <h3 className="font-medium text-slate-700">{tx.gigs?.title || 'Unknown Gig'}</h3>
-                <p className="text-xs font-mono text-slate-400">
-                   {new Date(tx.created_at).toLocaleString()}
-                </p>
-              </div>
+               <div>
+                 <h3 className="font-medium text-slate-700">{tx.gigs?.title || 'Unknown Gig'}</h3>
+                 <p className="text-xs font-mono text-slate-400">
+                    {new Date(tx.created_at).toLocaleString()}
+                 </p>
+                 {tx.memo && (() => {
+                   const parsed = parseStructuredMemo(tx.memo);
+                   return parsed ? (
+                     <p className="text-xs text-slate-500 mt-1">
+                       Memo: {parsed.type}-{parsed.id}
+                     </p>
+                   ) : null;
+                 })()}
+               </div>
             </div>
             <div className="text-right">
                <div className="font-mono font-bold text-slate-700">${Number(tx.amount).toFixed(2)}</div>
