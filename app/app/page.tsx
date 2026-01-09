@@ -8,7 +8,7 @@ import { useAccount, useWatchContractEvent } from "wagmi";
 import { erc20Abi } from "viem";
 import { getGigsByAddress, Gig } from "@/app/actions/gig";
 import { useMultiBalance } from "@/lib/hooks";
-import { formatAmount, getAllStablecoinAddresses, parseStructuredMemo } from "@/lib/tempo-helpers";
+import { parseStructuredMemo } from "@/lib/tempo-helpers";
 
 export default function DashboardPage() {
   const { address, isConnected } = useAccount();

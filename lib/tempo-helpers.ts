@@ -218,7 +218,7 @@ export const MAX_UINT256 = 2n ** 256n - 1n;
  * @param receipt - Transaction receipt
  * @returns True if successful
  */
-export function isTransactionSuccessful(receipt: any): boolean {
+export function isTransactionSuccessful(receipt: { status?: string | number } | null | undefined): boolean {
   return receipt?.status === 'success' || receipt?.status === 1;
 }
 

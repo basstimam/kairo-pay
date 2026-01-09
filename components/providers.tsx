@@ -22,14 +22,32 @@ const config = createConfig({
   },
 });
 
-const queryClient = new QueryClient();
-
-// Placeholder ID - User must update this!
 const DYNAMIC_ENV_ID = process.env.NEXT_PUBLIC_DYNAMIC_ENV_ID || 'PLACEHOLDER_DYNAMIC_ENV_ID';
 
 export function Providers({ children }: { children: React.ReactNode }) {
-  if (DYNAMIC_ENV_ID === 'PLACEHOLDER_DYNAMIC_ENV_ID') {
-    console.warn("⚠️ Dynamic Environment ID is missing. features will not work until set in .env");
+  const [queryClient] = React.useState(() => new QueryClient());
+
+  // Safe Guard for Missing Env ID
+  if (!DYNAMIC_ENV_ID || DYNAMIC_ENV_ID === 'PLACEHOLDER_DYNAMIC_ENV_ID') {
+    return (
+      <div className="min-h-screen bg-lime-50 flex flex-col items-center justify-center p-8 text-center font-serif text-forest">
+        <div className="bg-white p-8 rounded-xl shadow-[4px_4px_0px_0px_#0A3D2A] max-w-md border-2 border-forest">
+            <h1 className="text-2xl font-bold mb-4">Setup Required</h1>
+            <p className="mb-6 font-mono text-sm leading-relaxed">
+                The <code>NEXT_PUBLIC_DYNAMIC_ENV_ID</code> is missing in your environment configuration.
+            </p>
+            <div className="bg-lime-50 p-4 rounded border border-forest/10 mb-6 text-left">
+                <p className="text-xs text-forest/60 mb-2 font-mono uppercase">Add to .env file:</p>
+                <code className="text-xs break-all text-emerald-600 font-bold block">
+                    NEXT_PUBLIC_DYNAMIC_ENV_ID=...
+                </code>
+            </div>
+            <p className="text-xs text-forest/60">
+                Please restart the server after adding the variable.
+            </p>
+        </div>
+      </div>
+    );
   }
 
   return (

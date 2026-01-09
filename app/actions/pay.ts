@@ -3,9 +3,9 @@
 import { walletClient, publicClient } from '@/lib/tempo-client';
 import { supabase } from '@/lib/supabase';
 import { revalidatePath, unstable_noStore as noStore } from 'next/cache';
-import { parseAmount, generateStructuredMemo, ensureAddress, TEMPO_POLLING_INTERVAL } from '@/lib/tempo-helpers';
+import { parseAmount, generateStructuredMemo, STABLECOINS } from '@/lib/tempo-helpers';
 
-import { STABLECOINS } from '@/lib/tempo-helpers';
+
 
 const USDC_ADDRESS = STABLECOINS.alphaUSD; // Default AlphaUSD (USD)
 

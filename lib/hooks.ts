@@ -4,7 +4,7 @@
 
 import { useAccount, useReadContract, useReadContracts } from "wagmi";
 import { erc20Abi } from "viem";
-import { getAllStablecoinAddresses, getStablecoinName, STABLECOINS, MAX_UINT256 } from "./tempo-helpers";
+import { getAllStablecoinAddresses, getStablecoinName } from "./tempo-helpers";
 import { Address } from "viem";
 
 /**
@@ -29,21 +29,21 @@ export function useTokenBalance(tokenAddress: Address) {
  * Hook to get balances for all stablecoins
  */
 export function useMultiBalance() {
-  const { address } = useAccount();
+  const { address: userAddress } = useAccount();
   const stablecoinAddresses = getAllStablecoinAddresses();
 
-  const contracts = stablecoinAddresses.map(address => ({
-    address,
+  const contracts = stablecoinAddresses.map(tokenAddress => ({
+    address: tokenAddress,
     abi: erc20Abi,
     functionName: 'balanceOf' as const,
-    args: address ? [address] : undefined,
+    args: userAddress ? [userAddress] : undefined,
   }));
 
   const { data, isLoading, error, refetch } = useReadContracts({
     contracts,
     query: {
       refetchInterval: 2000,
-      enabled: !!address
+      enabled: !!userAddress
     }
   });
 

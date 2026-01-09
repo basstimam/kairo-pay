@@ -4,11 +4,12 @@ import Link from "next/link";
 import { useDynamicContext } from "@dynamic-labs/sdk-react-core";
 import { usePathname, useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { LayoutDashboard, PlusCircle, Settings, LogOut } from "lucide-react";
+import { LayoutDashboard, PlusCircle, Settings, LogOut, ArrowRightLeft } from "lucide-react";
 
 const sidebarLinks = [
   { name: "Dashboard", href: "/app", icon: LayoutDashboard },
   { name: "Create Gig", href: "/app/gigs/new", icon: PlusCircle },
+  { name: "Swap", href: "/app/swap", icon: ArrowRightLeft },
   { name: "Settings", href: "/app/settings", icon: Settings },
 ];
 
